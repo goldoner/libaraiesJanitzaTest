@@ -75,7 +75,7 @@
                     <archive>
                         <manifest>
 <!--                            <mainClass>de.griddata.net2dg.modbus.MainRTU</mainClass>-->
-                            <mainClass>MasterExample</mainClass>
+                            <mainClass>MasterReadTest</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
