@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.digitalpetri.modbus.examples.master;
-
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Executors;
@@ -34,8 +35,31 @@ import org.slf4j.LoggerFactory;
 
 public class MasterExample {
 
-    public static void main(String[] args) {
-        new MasterExample(100, 100).start();
+    public static String ip;
+    public static Integer port;
+    public static Integer register;
+
+    private static void readConfFile(String path) throws IOException {
+
+        Properties p = new Properties();
+
+        FileInputStream file = new FileInputStream(path);
+        p.load(file);
+        file.close();
+
+        ip = p.getProperty("device.ip");
+        port = Integer.parseInt(p.getProperty("device.port"));
+        register = Integer.parseInt(p.getProperty("device.register"));
+
+
+        System.out.println(p.getProperty("device.ip"));
+        System.out.println(p.getProperty("device.port"));
+        System.out.println(p.getProperty("device.register"));
+    }
+
+    public static void main(String[] args) throws IOException {
+        readConfFile("config.properties");
+        new MasterExample(1, 10).start();
     }
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
@@ -56,8 +80,8 @@ public class MasterExample {
     public void start() {
         started = true;
 
-        ModbusTcpMasterConfig config = new ModbusTcpMasterConfig.Builder("10.0.0.55")
-                .setPort(50200)
+        ModbusTcpMasterConfig config = new ModbusTcpMasterConfig.Builder(ip)
+                .setPort(port)
                 .build();
 
         new Thread(() -> {
@@ -96,7 +120,7 @@ public class MasterExample {
         if (!started) return;
 
         CompletableFuture<ReadHoldingRegistersResponse> future =
-                master.sendRequest(new ReadHoldingRegistersRequest(0, 10), 0);
+                master.sendRequest(new ReadHoldingRegistersRequest(register, 1), 0);
 
         future.whenCompleteAsync((response, ex) -> {
             if (response != null) {
