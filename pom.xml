@@ -11,17 +11,13 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jetty.version>9.4.43.v20210629</jetty.version>
+        <geotools.version>27-SNAPSHOT</geotools.version>
     </properties>
 
 
     <dependencies>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.17.1</version>
-        </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -33,6 +29,19 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.30</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.17.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.17.1</version>
+        </dependency>
+
 
         <dependency>
             <groupId>com.digitalpetri.modbus</groupId>
@@ -75,7 +84,7 @@
                     <archive>
                         <manifest>
 <!--                            <mainClass>de.griddata.net2dg.modbus.MainRTU</mainClass>-->
-                            <mainClass>MasterReadTest</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

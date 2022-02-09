@@ -58,7 +58,10 @@ public class MasterExample {
     }
 
     public static void main(String[] args) throws IOException {
-        readConfFile("config.properties");
+//        readConfFile("config.properties");
+        ip = "10.0.0.55";
+        port = 502;
+        register = 3092;
         new MasterExample(1, 10).start();
     }
 
