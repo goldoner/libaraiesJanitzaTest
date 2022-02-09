@@ -12,19 +12,20 @@ public class Main {
     public static void main(String[] args) {
 
 
-        ModbusTcpMasterConfig config = new ModbusTcpMasterConfig.Builder("10.0.0.5").build();
+        ModbusTcpMasterConfig config = new ModbusTcpMasterConfig.Builder("10.0.0.55").build();
         ModbusTcpMaster master = new ModbusTcpMaster(config);
 
         master.connect();
 
         CompletableFuture<ReadHoldingRegistersResponse> future =
-                master.sendRequest(new ReadHoldingRegistersRequest(0, 10), 0);
+                master.sendRequest(new ReadHoldingRegistersRequest(3960, 1), 1);
 
         future.thenAccept(response -> {
             System.out.println("Response: " + ByteBufUtil.hexDump(response.getRegisters()));
 
             ReferenceCountUtil.release(response);
         });
+        System.out.println("Finished");
 
     }
 
