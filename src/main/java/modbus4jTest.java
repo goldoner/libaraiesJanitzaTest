@@ -35,16 +35,86 @@ public class modbus4jTest {
         for (int i = 0; i < 100; i++) {
             try {
                 System.out.println("-------------------------------");
-                System.out.println("1 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT));
-                System.out.println("2 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_FLOAT));
-                System.out.println("3 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.BINARY));
-                System.out.println("4 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_INT_SIGNED));
-                System.out.println("5 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_INT_UNSIGNED));
-                System.out.println("6 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_BCD));
-                System.out.println("7 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.VARCHAR));
-                System.out.println("8 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_SIGNED));
-                System.out.println("9 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_UNSIGNED));
-                System.out.println("10 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_BCD));
+
+
+                try {
+                    System.out.println("1 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
+
+                } catch (Exception ex) {
+                    System.out.println("1. Exception");
+                }
+
+                try {
+                    System.out.println("2 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_FLOAT)));
+
+                } catch (Exception ex) {
+                    System.out.println("2. Exception");
+                }
+
+                try {
+                    System.out.println("3 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.BINARY)));
+
+                } catch (Exception ex) {
+                    System.out.println("3. Exception");
+                }
+
+                try {
+                    System.out.println("4 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_INT_SIGNED)));
+
+
+                } catch (Exception ex) {
+                    System.out.println("4. Exception");
+                }
+
+                try {
+                    System.out.println("5 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_INT_UNSIGNED)));
+                } catch (Exception ex) {
+                    System.out.println("5. Exception");
+                }
+
+                try {
+                    System.out.println("6 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_BCD)));
+
+
+                } catch (Exception ex) {
+                    System.out.println("6. Exception");
+                }
+
+                try {
+                    System.out.println("7 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.VARCHAR)));
+
+
+                } catch (Exception ex) {
+                    System.out.println("7. Exception");
+                }
+
+
+                try {
+
+                    System.out.println("8 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_SIGNED)));
+
+                } catch (Exception ex) {
+                    System.out.println("8. Exception");
+                }
+
+
+                try {
+
+                    System.out.println("9 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_UNSIGNED)));
+
+                } catch (Exception ex) {
+                    System.out.println("9. Exception");
+                }
+
+
+                try {
+                    System.out.println("10 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_BCD)));
+
+
+                } catch (Exception ex) {
+                    System.out.println("10. Exception");
+                }
+
 
                 System.out.println("-------------------------------");
                 Thread.sleep(5000);
