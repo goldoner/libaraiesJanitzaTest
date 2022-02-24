@@ -1,0 +1,2045 @@
+[2022-02-14 14:18:41,891] [main] INFO  (Main:279) Janitza Name from configFile : Janitza503
+[2022-02-14 14:18:41,894] [main] INFO  (Main:42) Initialized start. J2MOD Library
+[2022-02-14 14:18:41,894] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:18:41,894] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:18:42,259] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:18:42,260] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:18:42,306] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:18:42,308] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:18:42,308] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:18:42,308] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:18:42,346] [main] INFO  (Main:221) 8157: 66
+[2022-02-14 14:18:42,346] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:18:42,346] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:18:42,346] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:18:42,378] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:18:42,378] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:18:42,379] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:18:42,379] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:18:42,410] [main] INFO  (Main:231) 8160: 29274
+[2022-02-14 14:18:42,410] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:18:42,410] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:18:42,410] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:18:42,442] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:18:42,442] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:18:42,442] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:18:42,442] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:18:42,474] [main] INFO  (Main:241) 8166: 9496
+[2022-02-14 14:18:42,474] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:18:42,474] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:18:42,474] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:18:42,506] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:18:42,506] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:18:42,506] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:18:42,506] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:18:42,538] [main] INFO  (Main:251) 8172: -1861
+[2022-02-14 14:18:42,538] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:18:42,538] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:18:42,538] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:18:42,544] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:18:47,549] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:18:47,550] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:18:47,559] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:18:47,560] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:18:47,591] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:18:47,591] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:18:47,591] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:18:47,592] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:18:47,623] [main] INFO  (Main:221) 8157: 66
+[2022-02-14 14:18:47,623] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:18:47,623] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:18:47,623] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:18:47,654] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:18:47,655] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:18:47,655] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:18:47,655] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:18:47,687] [main] INFO  (Main:231) 8160: 27988
+[2022-02-14 14:18:47,687] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:18:47,687] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:18:47,687] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:18:47,719] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:18:47,719] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:18:47,719] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:18:47,720] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:18:47,750] [main] INFO  (Main:241) 8166: 9496
+[2022-02-14 14:18:47,751] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:18:47,751] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:18:47,751] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:18:47,782] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:18:47,783] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:18:47,783] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:18:47,783] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:18:47,814] [main] INFO  (Main:251) 8172: -1861
+[2022-02-14 14:18:47,814] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:18:47,815] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:18:47,815] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:18:47,821] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:18:52,822] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:18:52,822] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:18:52,833] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:18:52,833] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:18:52,865] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:18:52,866] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:18:52,866] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:18:52,866] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:18:52,897] [main] INFO  (Main:221) 8157: 66
+[2022-02-14 14:18:52,898] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:18:52,898] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:18:52,898] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:18:52,929] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:18:52,930] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:18:52,930] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:18:52,930] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:18:52,961] [main] INFO  (Main:231) 8160: 26701
+[2022-02-14 14:18:52,962] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:18:52,962] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:18:52,962] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:18:52,993] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:18:52,993] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:18:52,993] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:18:52,993] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:18:53,025] [main] INFO  (Main:241) 8166: 9402
+[2022-02-14 14:18:53,026] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:18:53,026] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:18:53,026] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:18:53,057] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:18:53,057] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:18:53,058] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:18:53,058] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:18:53,089] [main] INFO  (Main:251) 8172: -1861
+[2022-02-14 14:18:53,089] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:18:53,090] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:18:53,090] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:18:53,097] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:18:58,098] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:18:58,099] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:18:58,109] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:18:58,109] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:18:58,142] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:18:58,142] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:18:58,142] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:18:58,143] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:18:58,174] [main] INFO  (Main:221) 8157: 65
+[2022-02-14 14:18:58,174] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:18:58,174] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:18:58,174] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:18:58,207] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:18:58,207] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:18:58,207] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:18:58,207] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:18:58,238] [main] INFO  (Main:231) 8160: 25129
+[2022-02-14 14:18:58,238] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:18:58,238] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:18:58,239] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:18:58,270] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:18:58,270] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:18:58,270] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:18:58,270] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:18:58,302] [main] INFO  (Main:241) 8166: 9309
+[2022-02-14 14:18:58,302] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:18:58,302] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:18:58,302] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:18:58,333] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:18:58,334] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:18:58,334] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:18:58,334] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:18:58,365] [main] INFO  (Main:251) 8172: -1861
+[2022-02-14 14:18:58,365] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:18:58,365] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:18:58,366] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:18:58,371] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:19:03,373] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:19:03,374] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:19:03,385] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:19:03,385] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:19:03,419] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:19:03,419] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:19:03,419] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:19:03,419] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:19:03,451] [main] INFO  (Main:221) 8157: 65
+[2022-02-14 14:19:03,451] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:19:03,451] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:19:03,452] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:19:03,483] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:19:03,483] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:19:03,483] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:19:03,484] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:19:03,515] [main] INFO  (Main:231) 8160: 23843
+[2022-02-14 14:19:03,515] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:19:03,516] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:19:03,516] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:19:03,547] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:19:03,547] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:19:03,547] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:19:03,548] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:19:03,578] [main] INFO  (Main:241) 8166: 9216
+[2022-02-14 14:19:03,579] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:19:03,579] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:19:03,579] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:19:03,610] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:19:03,611] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:19:03,611] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:19:03,611] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:19:03,643] [main] INFO  (Main:251) 8172: -1861
+[2022-02-14 14:19:03,643] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:19:03,643] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:19:03,643] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:19:03,652] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:19:08,655] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:19:08,656] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:19:08,664] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:19:08,665] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:19:08,694] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:19:08,694] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:19:08,695] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:19:08,695] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:19:08,726] [main] INFO  (Main:221) 8157: 64
+[2022-02-14 14:19:08,726] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:19:08,727] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:19:08,727] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:19:08,758] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:19:08,758] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:19:08,759] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:19:08,759] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:19:08,790] [main] INFO  (Main:231) 8160: 22557
+[2022-02-14 14:19:08,790] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:19:08,790] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:19:08,791] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:19:08,822] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:19:08,822] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:19:08,822] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:19:08,822] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:19:08,854] [main] INFO  (Main:241) 8166: 9216
+[2022-02-14 14:19:08,854] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:19:08,854] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:19:08,855] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:19:08,886] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:19:08,886] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:19:08,886] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:19:08,886] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:19:08,917] [main] INFO  (Main:251) 8172: -1861
+[2022-02-14 14:19:08,918] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:19:08,918] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:19:08,918] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:19:08,924] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:19:13,925] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:19:13,926] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:19:13,937] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:19:13,937] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:19:13,970] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:19:13,970] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:19:13,970] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:19:13,971] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:19:14,002] [main] INFO  (Main:221) 8157: 64
+[2022-02-14 14:19:14,002] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:19:14,002] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:19:14,002] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:19:14,034] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:19:14,034] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:19:14,034] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:19:14,035] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:19:14,066] [main] INFO  (Main:231) 8160: 20985
+[2022-02-14 14:19:14,066] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:19:14,066] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:19:14,067] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:19:14,098] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:19:14,098] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:19:14,098] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:19:14,098] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:19:14,130] [main] INFO  (Main:241) 8166: 9123
+[2022-02-14 14:19:14,130] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:19:14,130] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:19:14,130] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:19:14,161] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:19:14,161] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:19:14,162] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:19:14,162] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:19:14,193] [main] INFO  (Main:251) 8172: -1861
+[2022-02-14 14:19:14,194] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:19:14,194] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:19:14,194] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:19:14,198] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:19:19,202] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:19:19,203] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:19:19,232] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:19:19,232] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:19:19,263] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:19:19,263] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:19:19,263] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:19:19,263] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:19:19,294] [main] INFO  (Main:221) 8157: 63
+[2022-02-14 14:19:19,295] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:19:19,295] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:19:19,295] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:19:19,326] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:19:19,326] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:19:19,327] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:19:19,327] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:19:19,358] [main] INFO  (Main:231) 8160: 19698
+[2022-02-14 14:19:19,359] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:19:19,359] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:19:19,359] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:19:19,390] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:19:19,390] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:19:19,390] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:19:19,391] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:19:19,422] [main] INFO  (Main:241) 8166: 9030
+[2022-02-14 14:19:19,422] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:19:19,422] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:19:19,423] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:19:19,454] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:19:19,454] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:19:19,454] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:19:19,455] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:19:19,486] [main] INFO  (Main:251) 8172: -1861
+[2022-02-14 14:19:19,486] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:19:19,487] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:19:19,487] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:19:19,492] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:19:26,539] [main] INFO  (Main:279) Janitza Name from configFile : Janitza503
+[2022-02-14 14:19:26,541] [main] INFO  (Main:42) Initialized start. J2MOD Library
+[2022-02-14 14:19:26,541] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:19:26,541] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:19:26,643] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:19:26,643] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:19:26,687] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:19:26,689] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:19:26,689] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:19:26,689] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:19:30,499] [main] INFO  (Main:221) 8157: 62
+[2022-02-14 14:19:30,499] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:19:30,500] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:19:30,500] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:19:30,531] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:19:30,531] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:19:30,534] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:19:30,535] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:19:30,563] [main] INFO  (Main:231) 8160: 16840
+[2022-02-14 14:19:30,564] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:19:30,564] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:19:30,564] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:19:30,595] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:19:30,595] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:19:30,596] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:19:30,596] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:19:30,627] [main] INFO  (Main:241) 8166: 8937
+[2022-02-14 14:19:30,627] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:19:30,628] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:19:30,628] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:19:30,659] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:19:30,659] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:19:30,660] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:19:30,660] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:19:30,691] [main] INFO  (Main:251) 8172: -1768
+[2022-02-14 14:19:30,691] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:19:30,691] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:19:30,692] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:19:30,701] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:19:35,702] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:19:35,703] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:19:35,711] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:19:35,712] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:19:35,742] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:19:35,742] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:19:35,743] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:19:35,743] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:19:35,774] [main] INFO  (Main:221) 8157: 62
+[2022-02-14 14:19:35,774] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:19:35,774] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:19:35,774] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:19:35,805] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:19:35,806] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:19:35,806] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:19:35,806] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:19:35,837] [main] INFO  (Main:231) 8160: 15554
+[2022-02-14 14:19:35,838] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:19:35,838] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:19:35,838] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:19:35,869] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:19:35,870] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:19:35,870] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:19:35,870] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:19:35,901] [main] INFO  (Main:241) 8166: 8844
+[2022-02-14 14:19:35,902] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:19:35,902] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:19:35,902] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:19:35,933] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:19:35,933] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:19:35,933] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:19:35,933] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:19:35,965] [main] INFO  (Main:251) 8172: -1768
+[2022-02-14 14:19:35,965] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:19:35,965] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:19:35,965] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:19:35,970] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:19:57,361] [main] INFO  (Main:279) Janitza Name from configFile : Janitza503
+[2022-02-14 14:19:57,363] [main] INFO  (Main:42) Initialized start. J2MOD Library
+[2022-02-14 14:19:57,363] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:19:57,363] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:19:57,476] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:19:57,476] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:19:57,517] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:19:57,519] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:19:57,519] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:19:57,519] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:19:57,547] [main] INFO  (Main:221) 8157: 61
+[2022-02-14 14:19:57,548] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:19:57,548] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:19:57,548] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:19:57,579] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:19:57,580] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:19:57,581] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:19:57,581] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:19:57,611] [main] INFO  (Main:231) 8160: 9837
+[2022-02-14 14:19:57,612] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:19:57,612] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:19:57,612] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:19:57,643] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:19:57,644] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:19:57,644] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:19:57,644] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:19:57,675] [main] INFO  (Main:241) 8166: 8658
+[2022-02-14 14:19:57,675] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:19:57,676] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:19:57,676] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:19:57,707] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:19:57,707] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:19:57,708] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:19:57,708] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:19:57,739] [main] INFO  (Main:251) 8172: -1768
+[2022-02-14 14:19:57,739] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:19:57,739] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:19:57,739] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:19:57,745] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 14:20:02,748] [main] INFO  (Main:48) Connecting to
+[2022-02-14 14:20:02,749] [main] INFO  (Main:58) Janitza503 used!
+[2022-02-14 14:20:02,759] [main] INFO  (Main:67) Janitza503 is connected : true
+[2022-02-14 14:20:02,759] [main] INFO  (Main:214) === CURRENTS === MEASURED [mA] j2mod library
+[2022-02-14 14:20:02,789] [main] INFO  (Main:216) 8000: 0
+[2022-02-14 14:20:02,790] [main] INFO  (Main:217) 8001: 0
+[2022-02-14 14:20:02,790] [main] INFO  (Main:218) 8002: 0
+[2022-02-14 14:20:02,790] [main] INFO  (Main:219) === CURRENTS === MEAN [mA] j2mod library
+[2022-02-14 14:20:02,821] [main] INFO  (Main:221) 8157: 60
+[2022-02-14 14:20:02,822] [main] INFO  (Main:222) 8158: 0
+[2022-02-14 14:20:02,822] [main] INFO  (Main:223) 8159: 0
+[2022-02-14 14:20:02,822] [main] INFO  (Main:224) === VOLTAGE === MEASURED [V] j2mod library
+[2022-02-14 14:20:02,853] [main] INFO  (Main:226) 8003: 0
+[2022-02-14 14:20:02,854] [main] INFO  (Main:227) 8004: 0
+[2022-02-14 14:20:02,854] [main] INFO  (Main:228) 8005: 0
+[2022-02-14 14:20:02,854] [main] INFO  (Main:229) === VOLTAGE === MEAN [V] j2mod library
+[2022-02-14 14:20:02,885] [main] INFO  (Main:231) 8160: 8336
+[2022-02-14 14:20:02,886] [main] INFO  (Main:232) 8161: 0
+[2022-02-14 14:20:02,886] [main] INFO  (Main:233) 8162: 0
+[2022-02-14 14:20:02,886] [main] INFO  (Main:234) === POWER ACTIVE === MEASURED [W] j2mod library
+[2022-02-14 14:20:02,917] [main] INFO  (Main:236) 8009: 0
+[2022-02-14 14:20:02,918] [main] INFO  (Main:237) 8010: 0
+[2022-02-14 14:20:02,918] [main] INFO  (Main:238) 8011: 0
+[2022-02-14 14:20:02,918] [main] INFO  (Main:239) === POWER ACTIVE === MEAN [W] j2mod library
+[2022-02-14 14:20:02,949] [main] INFO  (Main:241) 8166: 8565
+[2022-02-14 14:20:02,950] [main] INFO  (Main:242) 8167: 0
+[2022-02-14 14:20:02,950] [main] INFO  (Main:243) 8168: 0
+[2022-02-14 14:20:02,950] [main] INFO  (Main:244) === POWER REACTIVE === MEASURED [var] j2mod library
+[2022-02-14 14:20:02,981] [main] INFO  (Main:246) 8015: 0
+[2022-02-14 14:20:02,981] [main] INFO  (Main:247) 8016: 0
+[2022-02-14 14:20:02,981] [main] INFO  (Main:248) 8017: 0
+[2022-02-14 14:20:02,981] [main] INFO  (Main:249) === POWER REACTIVE === MEAN [var] j2mod library
+[2022-02-14 14:20:03,013] [main] INFO  (Main:251) 8172: -1768
+[2022-02-14 14:20:03,013] [main] INFO  (Main:252) 8173: 0
+[2022-02-14 14:20:03,013] [main] INFO  (Main:253) 8174: 0
+[2022-02-14 14:20:03,013] [main] INFO  (Main:254) =========j2mod library test===========
+[2022-02-14 14:20:03,020] [main] INFO  (Main:83) Waiting 5 seconds
+[2022-02-14 16:19:48,141] [main] INFO  (Main:309) Janitza Name from configFile : Janitza96
+[2022-02-14 16:19:48,143] [main] INFO  (Main:43) Initialized start. J2MOD Library
+[2022-02-14 16:19:48,143] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:19:48,143] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:19:48,173] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:19:48,179] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:19:48,222] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:19:48,224] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,224] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,224] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:19:48,227] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:19:48,227] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,228] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,228] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:19:48,231] [main] INFO  (Main:163) Register 3530: [R.E : 2286 ], [ j2mod : 2286 ]
+[2022-02-14 16:19:48,231] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,232] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,232] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:19:48,239] [main] INFO  (Main:172) Register 3960: [R.E : 2286 ], [ j2mod : 2286 ]
+[2022-02-14 16:19:48,239] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,239] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,239] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:19:48,243] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:19:48,243] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,243] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,243] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:19:48,246] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:19:48,247] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,247] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,247] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:19:48,250] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:19:48,250] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,250] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,250] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:19:48,253] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:19:48,253] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,254] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:48,254] [main] INFO  (Main:210) ====================
+[2022-02-14 16:19:48,256] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:19:53,256] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:19:53,257] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:19:53,259] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:19:53,261] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:19:53,266] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:19:53,266] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,266] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,266] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:19:53,270] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:19:53,270] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,270] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,270] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:19:53,274] [main] INFO  (Main:163) Register 3530: [R.E : 2286 ], [ j2mod : 2286 ]
+[2022-02-14 16:19:53,274] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,274] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,274] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:19:53,277] [main] INFO  (Main:172) Register 3960: [R.E : 2286 ], [ j2mod : 2286 ]
+[2022-02-14 16:19:53,277] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,277] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,277] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:19:53,280] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:19:53,281] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,281] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,281] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:19:53,284] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:19:53,284] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,285] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,285] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:19:53,288] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:19:53,288] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,288] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,288] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:19:53,292] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:19:53,292] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,292] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:53,292] [main] INFO  (Main:210) ====================
+[2022-02-14 16:19:53,294] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:19:58,298] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:19:58,299] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:19:58,301] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:19:58,304] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:19:58,310] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:19:58,310] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,311] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,311] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:19:58,314] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:19:58,314] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,314] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,315] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:19:58,318] [main] INFO  (Main:163) Register 3530: [R.E : 2285 ], [ j2mod : 2285 ]
+[2022-02-14 16:19:58,319] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,319] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,319] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:19:58,322] [main] INFO  (Main:172) Register 3960: [R.E : 2285 ], [ j2mod : 2285 ]
+[2022-02-14 16:19:58,322] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,322] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,323] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:19:58,326] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:19:58,326] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,326] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,326] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:19:58,330] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:19:58,330] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,330] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,330] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:19:58,333] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:19:58,333] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,333] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,334] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:19:58,336] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:19:58,337] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,337] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:19:58,337] [main] INFO  (Main:210) ====================
+[2022-02-14 16:19:58,339] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:03,342] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:03,342] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:03,345] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:03,346] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:03,351] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:03,351] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,351] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,351] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:03,356] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:03,356] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,356] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,357] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:03,361] [main] INFO  (Main:163) Register 3530: [R.E : 2282 ], [ j2mod : 2282 ]
+[2022-02-14 16:20:03,361] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,361] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,361] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:03,365] [main] INFO  (Main:172) Register 3960: [R.E : 2285 ], [ j2mod : 2285 ]
+[2022-02-14 16:20:03,365] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,365] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,365] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:03,369] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:03,369] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,369] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,369] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:03,372] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:03,373] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,373] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,373] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:03,376] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:03,376] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,376] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,376] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:03,379] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:03,380] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,380] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:03,380] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:03,381] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:08,382] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:08,382] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:08,384] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:08,386] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:08,392] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:08,392] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,393] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,393] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:08,397] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:08,397] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,397] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,397] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:08,401] [main] INFO  (Main:163) Register 3530: [R.E : 2284 ], [ j2mod : 2284 ]
+[2022-02-14 16:20:08,401] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,401] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,401] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:08,405] [main] INFO  (Main:172) Register 3960: [R.E : 2285 ], [ j2mod : 2285 ]
+[2022-02-14 16:20:08,405] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,405] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,405] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:08,408] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:08,408] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,408] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,409] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:08,412] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:08,412] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,412] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,412] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:08,415] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:08,416] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,416] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,416] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:08,419] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:08,419] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,419] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:08,419] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:08,421] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:13,426] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:13,427] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:13,429] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:13,431] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:13,435] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:13,435] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,435] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,435] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:13,439] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:13,439] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,439] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,439] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:13,442] [main] INFO  (Main:163) Register 3530: [R.E : 2281 ], [ j2mod : 2281 ]
+[2022-02-14 16:20:13,443] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,443] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,443] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:13,446] [main] INFO  (Main:172) Register 3960: [R.E : 2282 ], [ j2mod : 2282 ]
+[2022-02-14 16:20:13,446] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,446] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,447] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:13,450] [main] INFO  (Main:181) Register 3920: [R.E : 99 ], [ j2mod : 99 ]
+[2022-02-14 16:20:13,450] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,450] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,450] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:13,454] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:13,454] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,454] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,454] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:13,457] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:13,458] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,458] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,458] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:13,461] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:13,461] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,461] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:13,461] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:13,463] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:18,467] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:18,467] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:18,468] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:18,470] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:18,474] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:18,474] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,474] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,474] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:18,477] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:18,477] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,477] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,477] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:18,479] [main] INFO  (Main:163) Register 3530: [R.E : 2281 ], [ j2mod : 2281 ]
+[2022-02-14 16:20:18,479] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,480] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,480] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:18,482] [main] INFO  (Main:172) Register 3960: [R.E : 2282 ], [ j2mod : 2282 ]
+[2022-02-14 16:20:18,482] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,482] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,482] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:18,485] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:18,485] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,486] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,486] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:18,489] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:18,489] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,490] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,491] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:18,494] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:18,494] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,494] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,494] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:18,496] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:18,497] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,497] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:18,497] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:18,498] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:23,499] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:23,500] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:23,501] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:23,502] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:23,506] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:23,506] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,506] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,506] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:23,509] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:23,509] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,509] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,509] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:23,512] [main] INFO  (Main:163) Register 3530: [R.E : 2281 ], [ j2mod : 2281 ]
+[2022-02-14 16:20:23,512] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,512] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,512] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:23,515] [main] INFO  (Main:172) Register 3960: [R.E : 2281 ], [ j2mod : 2281 ]
+[2022-02-14 16:20:23,515] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,515] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,515] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:23,518] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:23,518] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,518] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,518] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:23,520] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:23,520] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,521] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,521] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:23,523] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:23,523] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,524] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,524] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:23,526] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:23,527] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,527] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:23,527] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:23,528] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:28,529] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:28,529] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:28,530] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:28,532] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:28,536] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:28,536] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,536] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,536] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:28,539] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:28,539] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,539] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,539] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:28,542] [main] INFO  (Main:163) Register 3530: [R.E : 2279 ], [ j2mod : 2279 ]
+[2022-02-14 16:20:28,542] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,543] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,543] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:28,546] [main] INFO  (Main:172) Register 3960: [R.E : 2280 ], [ j2mod : 2280 ]
+[2022-02-14 16:20:28,546] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,546] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,546] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:28,549] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:28,549] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,549] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,549] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:28,552] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:28,552] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,552] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,552] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:28,555] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:28,555] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,555] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,555] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:28,558] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:28,558] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,558] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:28,558] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:28,559] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:33,559] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:33,559] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:33,561] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:33,562] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:33,566] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:33,566] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,566] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,566] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:33,570] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:33,570] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,570] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,570] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:33,573] [main] INFO  (Main:163) Register 3530: [R.E : 2280 ], [ j2mod : 2280 ]
+[2022-02-14 16:20:33,573] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,573] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,573] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:33,576] [main] INFO  (Main:172) Register 3960: [R.E : 2280 ], [ j2mod : 2280 ]
+[2022-02-14 16:20:33,577] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,577] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,577] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:33,579] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:33,579] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,579] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,580] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:33,583] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:33,583] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,583] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,583] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:33,587] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:33,587] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,588] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,588] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:33,591] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:33,592] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,592] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:33,592] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:33,593] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:38,594] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:38,594] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:38,596] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:38,597] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:38,601] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:38,601] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,601] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,601] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:38,604] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:38,604] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,604] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,604] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:38,607] [main] INFO  (Main:163) Register 3530: [R.E : 2280 ], [ j2mod : 2280 ]
+[2022-02-14 16:20:38,607] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,607] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,607] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:38,610] [main] INFO  (Main:172) Register 3960: [R.E : 2280 ], [ j2mod : 2280 ]
+[2022-02-14 16:20:38,610] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,610] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,610] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:38,613] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:38,613] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,613] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,613] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:38,616] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:38,616] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,616] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,616] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:38,619] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:38,619] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,619] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,619] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:38,622] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : 65516 ]
+[2022-02-14 16:20:38,622] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,622] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:38,622] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:38,623] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:44,483] [main] INFO  (Main:309) Janitza Name from configFile : Janitza96
+[2022-02-14 16:20:44,485] [main] INFO  (Main:43) Initialized start. J2MOD Library
+[2022-02-14 16:20:44,485] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:44,485] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:44,509] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:44,515] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:44,532] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:44,534] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,534] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,534] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:44,537] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:44,537] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,537] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,538] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:44,541] [main] INFO  (Main:163) Register 3530: [R.E : 2268 ], [ j2mod : 2268 ]
+[2022-02-14 16:20:44,541] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,542] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,542] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:44,546] [main] INFO  (Main:172) Register 3960: [R.E : 2270 ], [ j2mod : 2270 ]
+[2022-02-14 16:20:44,546] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,546] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,546] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:44,549] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:44,549] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,550] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,550] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:44,553] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:44,553] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,553] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,553] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:44,556] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:20:44,557] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,557] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,557] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:44,560] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:20:44,560] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,560] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:44,561] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:44,563] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:49,565] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:49,565] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:49,567] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:49,569] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:49,574] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:49,574] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,574] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,574] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:49,577] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:49,578] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,578] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,578] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:49,581] [main] INFO  (Main:163) Register 3530: [R.E : 2271 ], [ j2mod : 2271 ]
+[2022-02-14 16:20:49,582] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,582] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,582] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:49,586] [main] INFO  (Main:172) Register 3960: [R.E : 2269 ], [ j2mod : 2269 ]
+[2022-02-14 16:20:49,586] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,586] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,586] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:49,590] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:49,590] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,591] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,591] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:49,595] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:49,595] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,595] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,596] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:49,600] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:20:49,600] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,601] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,601] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:49,605] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:20:49,605] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,605] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:49,606] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:49,607] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:54,608] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:54,609] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:54,611] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:54,613] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:54,627] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:54,627] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,627] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,627] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:54,630] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:54,630] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,630] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,630] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:54,633] [main] INFO  (Main:163) Register 3530: [R.E : 2272 ], [ j2mod : 2272 ]
+[2022-02-14 16:20:54,634] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,634] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,634] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:54,637] [main] INFO  (Main:172) Register 3960: [R.E : 2271 ], [ j2mod : 2271 ]
+[2022-02-14 16:20:54,637] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,637] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,637] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:54,640] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:54,640] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,641] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,641] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:54,644] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:54,644] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,644] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,644] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:54,647] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:20:54,647] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,647] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,647] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:54,650] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:20:54,650] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,650] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:54,650] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:54,652] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:20:59,654] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:20:59,655] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:20:59,657] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:20:59,659] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:20:59,664] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:59,665] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,665] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,665] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:20:59,670] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:20:59,670] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,671] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,671] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:20:59,675] [main] INFO  (Main:163) Register 3530: [R.E : 2268 ], [ j2mod : 2268 ]
+[2022-02-14 16:20:59,676] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,676] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,676] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:20:59,680] [main] INFO  (Main:172) Register 3960: [R.E : 2272 ], [ j2mod : 2272 ]
+[2022-02-14 16:20:59,681] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,681] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,681] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:20:59,685] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:59,685] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,685] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,685] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:20:59,689] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:20:59,689] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,689] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,690] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:20:59,693] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:20:59,693] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,694] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,694] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:20:59,698] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:20:59,698] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,698] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:20:59,699] [main] INFO  (Main:210) ====================
+[2022-02-14 16:20:59,700] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:04,705] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:04,707] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:04,708] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:04,710] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:04,714] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:04,714] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,714] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,714] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:04,718] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:04,718] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,718] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,718] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:04,721] [main] INFO  (Main:163) Register 3530: [R.E : 2281 ], [ j2mod : 2281 ]
+[2022-02-14 16:21:04,721] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,721] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,722] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:04,725] [main] INFO  (Main:172) Register 3960: [R.E : 2279 ], [ j2mod : 2279 ]
+[2022-02-14 16:21:04,725] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,725] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,725] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:04,728] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:04,728] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,728] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,728] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:04,730] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:04,730] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,730] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,730] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:04,733] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:04,733] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,733] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,733] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:04,736] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:04,736] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,736] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:04,736] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:04,737] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:09,742] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:09,742] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:09,744] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:09,746] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:09,751] [main] INFO  (Main:147) Register 3916: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:21:09,751] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,751] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,751] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:09,754] [main] INFO  (Main:155) Register 4346: [R.E : 71 ], [ j2mod : 71 ]
+[2022-02-14 16:21:09,755] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,755] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,755] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:09,758] [main] INFO  (Main:163) Register 3530: [R.E : 2281 ], [ j2mod : 2281 ]
+[2022-02-14 16:21:09,758] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,758] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,759] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:09,762] [main] INFO  (Main:172) Register 3960: [R.E : 2282 ], [ j2mod : 2282 ]
+[2022-02-14 16:21:09,762] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,762] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,762] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:09,765] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:09,765] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,765] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,765] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:09,768] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:09,768] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,768] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,768] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:09,771] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:09,772] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,772] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,772] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:09,775] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:09,775] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,775] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:09,775] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:09,777] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:14,778] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:14,778] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:14,779] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:14,780] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:14,784] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:14,785] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,785] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,785] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:14,788] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:14,789] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,789] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,789] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:14,793] [main] INFO  (Main:163) Register 3530: [R.E : 2311 ], [ j2mod : 2311 ]
+[2022-02-14 16:21:14,793] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,793] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,793] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:14,797] [main] INFO  (Main:172) Register 3960: [R.E : 2309 ], [ j2mod : 2309 ]
+[2022-02-14 16:21:14,797] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,797] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,797] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:14,800] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:14,801] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,801] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,801] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:14,804] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:14,804] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,805] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,805] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:14,808] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:14,809] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,809] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,809] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:14,811] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:14,812] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,812] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:14,812] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:14,813] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:19,816] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:19,816] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:19,818] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:19,819] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:19,835] [main] INFO  (Main:147) Register 3916: [R.E : 69 ], [ j2mod : 69 ]
+[2022-02-14 16:21:19,835] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,835] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,835] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:19,838] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:19,838] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,838] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,839] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:19,842] [main] INFO  (Main:163) Register 3530: [R.E : 2314 ], [ j2mod : 2314 ]
+[2022-02-14 16:21:19,842] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,842] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,842] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:19,844] [main] INFO  (Main:172) Register 3960: [R.E : 2313 ], [ j2mod : 2313 ]
+[2022-02-14 16:21:19,845] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,845] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,845] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:19,848] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:19,848] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,848] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,848] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:19,851] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:19,851] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,851] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,851] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:19,854] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:19,854] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,854] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,854] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:19,857] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:19,857] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,858] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:19,858] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:19,859] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:24,860] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:24,860] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:24,863] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:24,865] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:24,869] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:24,869] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,870] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,870] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:24,873] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:24,873] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,873] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,873] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:24,876] [main] INFO  (Main:163) Register 3530: [R.E : 2314 ], [ j2mod : 2314 ]
+[2022-02-14 16:21:24,876] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,876] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,876] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:24,879] [main] INFO  (Main:172) Register 3960: [R.E : 2315 ], [ j2mod : 2315 ]
+[2022-02-14 16:21:24,879] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,879] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,879] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:24,882] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:24,882] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,882] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,882] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:24,885] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:24,885] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,885] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,885] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:24,888] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:24,888] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,888] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,888] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:24,891] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:24,891] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,891] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:24,891] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:24,892] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:29,897] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:29,899] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:29,901] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:29,903] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:29,907] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:29,907] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,907] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,907] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:29,911] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:29,911] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,911] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,911] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:29,915] [main] INFO  (Main:163) Register 3530: [R.E : 2315 ], [ j2mod : 2315 ]
+[2022-02-14 16:21:29,915] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,915] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,915] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:29,918] [main] INFO  (Main:172) Register 3960: [R.E : 2315 ], [ j2mod : 2315 ]
+[2022-02-14 16:21:29,918] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,919] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,919] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:29,922] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:29,922] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,922] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,922] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:29,925] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:29,925] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,925] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,925] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:29,928] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:29,928] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,928] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,928] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:29,931] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:29,931] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,931] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:29,931] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:29,932] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:34,937] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:34,938] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:34,939] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:34,941] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:34,945] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:34,945] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,945] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,945] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:34,948] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:34,948] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,948] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,948] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:34,951] [main] INFO  (Main:163) Register 3530: [R.E : 2315 ], [ j2mod : 2315 ]
+[2022-02-14 16:21:34,952] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,952] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,952] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:34,955] [main] INFO  (Main:172) Register 3960: [R.E : 2315 ], [ j2mod : 2315 ]
+[2022-02-14 16:21:34,955] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,955] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,955] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:34,958] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:34,958] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,958] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,958] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:34,961] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:34,961] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,961] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,961] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:34,964] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:34,964] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,964] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,964] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:34,967] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:34,967] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,967] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:34,967] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:34,968] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:39,970] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:39,970] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:39,972] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:39,974] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:39,978] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:39,979] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,979] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,979] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:39,982] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:39,982] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,982] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,982] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:39,986] [main] INFO  (Main:163) Register 3530: [R.E : 2316 ], [ j2mod : 2316 ]
+[2022-02-14 16:21:39,986] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,986] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,986] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:39,989] [main] INFO  (Main:172) Register 3960: [R.E : 2316 ], [ j2mod : 2316 ]
+[2022-02-14 16:21:39,989] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,989] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,989] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:39,992] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:39,992] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,992] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,992] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:39,996] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:39,996] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,996] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:39,996] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:40,000] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:40,001] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:40,001] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:40,001] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:40,005] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:40,005] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:40,005] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:40,005] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:40,007] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:45,007] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:45,007] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:45,009] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:45,011] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:45,016] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:45,016] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,016] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,016] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:45,019] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:45,019] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,019] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,019] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:45,022] [main] INFO  (Main:163) Register 3530: [R.E : 2316 ], [ j2mod : 2316 ]
+[2022-02-14 16:21:45,022] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,022] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,022] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:45,025] [main] INFO  (Main:172) Register 3960: [R.E : 2316 ], [ j2mod : 2316 ]
+[2022-02-14 16:21:45,025] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,025] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,025] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:45,028] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:45,028] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,028] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,028] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:45,031] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:45,031] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,031] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,031] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:45,034] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:45,034] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,034] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,034] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:45,037] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:45,037] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,037] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:45,037] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:45,038] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:50,041] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:50,041] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:50,042] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:50,043] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:50,047] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:50,048] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,048] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,048] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:50,051] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:50,051] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,051] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,051] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:50,054] [main] INFO  (Main:163) Register 3530: [R.E : 2315 ], [ j2mod : 2315 ]
+[2022-02-14 16:21:50,054] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,054] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,054] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:50,056] [main] INFO  (Main:172) Register 3960: [R.E : 2316 ], [ j2mod : 2316 ]
+[2022-02-14 16:21:50,057] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,057] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,057] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:50,059] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:50,060] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,060] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,060] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:50,062] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:50,063] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,063] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,063] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:50,065] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:50,065] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,065] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,066] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:50,068] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:50,068] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,068] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:50,068] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:50,070] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:21:55,072] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:21:55,072] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:21:55,074] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:21:55,076] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:21:55,081] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:55,081] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,081] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,081] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:21:55,084] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:21:55,085] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,085] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,085] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:21:55,089] [main] INFO  (Main:163) Register 3530: [R.E : 2312 ], [ j2mod : 2312 ]
+[2022-02-14 16:21:55,089] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,090] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,090] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:21:55,094] [main] INFO  (Main:172) Register 3960: [R.E : 2314 ], [ j2mod : 2314 ]
+[2022-02-14 16:21:55,094] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,094] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,095] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:21:55,098] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:55,098] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,099] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,099] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:21:55,102] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:21:55,103] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,103] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,103] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:21:55,106] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:55,107] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,107] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,107] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:21:55,110] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:21:55,110] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,111] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:21:55,111] [main] INFO  (Main:210) ====================
+[2022-02-14 16:21:55,112] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:00,115] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:00,116] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:00,118] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:00,120] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:00,124] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:00,125] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,125] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,125] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:00,128] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:00,129] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,129] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,129] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:00,132] [main] INFO  (Main:163) Register 3530: [R.E : 2314 ], [ j2mod : 2314 ]
+[2022-02-14 16:22:00,132] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,132] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,133] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:00,136] [main] INFO  (Main:172) Register 3960: [R.E : 2315 ], [ j2mod : 2315 ]
+[2022-02-14 16:22:00,136] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,136] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,136] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:00,139] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:00,139] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,139] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,139] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:00,143] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:00,143] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,143] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,143] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:00,146] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:00,147] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,147] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,147] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:00,150] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:00,150] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,150] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:00,150] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:00,151] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:05,154] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:05,155] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:05,157] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:05,159] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:05,163] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:05,164] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,164] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,164] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:05,167] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:05,167] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,167] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,167] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:05,170] [main] INFO  (Main:163) Register 3530: [R.E : 2318 ], [ j2mod : 2318 ]
+[2022-02-14 16:22:05,171] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,171] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,171] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:05,175] [main] INFO  (Main:172) Register 3960: [R.E : 2317 ], [ j2mod : 2317 ]
+[2022-02-14 16:22:05,175] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,175] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,175] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:05,179] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:05,179] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,179] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,179] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:05,183] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:05,183] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,183] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,183] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:05,187] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:05,187] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,187] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,187] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:05,190] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:05,190] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,190] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:05,190] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:05,192] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:10,195] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:10,195] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:10,196] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:10,198] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:10,202] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:10,202] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,202] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,202] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:10,205] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:10,205] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,205] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,205] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:10,208] [main] INFO  (Main:163) Register 3530: [R.E : 2320 ], [ j2mod : 2320 ]
+[2022-02-14 16:22:10,208] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,208] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,208] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:10,212] [main] INFO  (Main:172) Register 3960: [R.E : 2320 ], [ j2mod : 2320 ]
+[2022-02-14 16:22:10,212] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,212] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,212] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:10,217] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:10,217] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,217] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,217] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:10,221] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:10,221] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,221] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,221] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:10,225] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:10,225] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,225] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,225] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:10,228] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:10,228] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,228] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:10,228] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:10,229] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:15,232] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:15,232] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:15,234] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:15,236] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:15,259] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:15,260] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,260] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,260] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:15,264] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:15,264] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,264] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,264] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:15,267] [main] INFO  (Main:163) Register 3530: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:15,268] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,268] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,268] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:15,271] [main] INFO  (Main:172) Register 3960: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:15,272] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,272] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,272] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:15,275] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:15,275] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,275] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,275] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:15,279] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:15,279] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,279] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,279] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:15,283] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:15,283] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,283] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,283] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:15,287] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:15,287] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,287] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:15,287] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:15,289] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:20,291] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:20,291] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:20,293] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:20,295] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:20,299] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:20,300] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,300] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,300] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:20,303] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:20,303] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,303] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,303] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:20,306] [main] INFO  (Main:163) Register 3530: [R.E : 2322 ], [ j2mod : 2322 ]
+[2022-02-14 16:22:20,306] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,306] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,307] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:20,310] [main] INFO  (Main:172) Register 3960: [R.E : 2321 ], [ j2mod : 2321 ]
+[2022-02-14 16:22:20,310] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,310] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,310] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:20,314] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:20,314] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,314] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,314] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:20,317] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:20,317] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,317] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,317] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:20,320] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:20,320] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,320] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,320] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:20,323] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:20,323] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,323] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:20,323] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:20,325] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:25,329] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:25,330] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:25,332] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:25,334] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:25,339] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:25,339] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,339] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,339] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:25,343] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:25,343] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,343] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,343] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:25,346] [main] INFO  (Main:163) Register 3530: [R.E : 2321 ], [ j2mod : 2321 ]
+[2022-02-14 16:22:25,346] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,346] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,346] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:25,349] [main] INFO  (Main:172) Register 3960: [R.E : 2321 ], [ j2mod : 2321 ]
+[2022-02-14 16:22:25,349] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,349] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,349] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:25,352] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:25,352] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,352] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,353] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:25,356] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:25,356] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,356] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,356] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:25,359] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:25,359] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,359] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,359] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:25,362] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:25,362] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,362] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:25,362] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:25,363] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:30,367] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:30,368] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:30,370] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:30,371] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:30,376] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:30,376] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,376] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,376] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:30,379] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:30,379] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,380] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,380] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:30,383] [main] INFO  (Main:163) Register 3530: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:30,383] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,383] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,383] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:30,386] [main] INFO  (Main:172) Register 3960: [R.E : 2320 ], [ j2mod : 2320 ]
+[2022-02-14 16:22:30,386] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,386] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,386] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:30,389] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:30,389] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,389] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,389] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:30,392] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:30,392] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,392] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,392] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:30,395] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:30,396] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,396] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,396] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:30,398] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:30,398] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,399] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:30,399] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:30,400] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:35,404] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:35,405] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:35,406] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:35,407] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:35,412] [main] INFO  (Main:147) Register 3916: [R.E : 69 ], [ j2mod : 69 ]
+[2022-02-14 16:22:35,412] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,412] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,412] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:35,415] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:35,415] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,415] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,415] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:35,418] [main] INFO  (Main:163) Register 3530: [R.E : 2320 ], [ j2mod : 2320 ]
+[2022-02-14 16:22:35,419] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,419] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,419] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:35,423] [main] INFO  (Main:172) Register 3960: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:35,423] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,423] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,423] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:35,428] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:35,428] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,428] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,428] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:35,432] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:35,432] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,432] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,432] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:35,436] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:35,436] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,436] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,436] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:35,440] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:35,440] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,440] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:35,440] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:35,441] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:40,445] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:40,446] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:40,447] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:40,448] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:40,469] [main] INFO  (Main:147) Register 3916: [R.E : 69 ], [ j2mod : 69 ]
+[2022-02-14 16:22:40,469] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,469] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,469] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:40,472] [main] INFO  (Main:155) Register 4346: [R.E : 69 ], [ j2mod : 69 ]
+[2022-02-14 16:22:40,473] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,473] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,473] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:40,476] [main] INFO  (Main:163) Register 3530: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:40,476] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,476] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,476] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:40,479] [main] INFO  (Main:172) Register 3960: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:40,479] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,479] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,479] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:40,482] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:40,482] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,482] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,482] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:40,485] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:40,485] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,485] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,485] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:40,488] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:40,489] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,489] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,489] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:40,493] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:40,493] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,493] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:40,493] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:40,494] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:45,494] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:45,495] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:45,497] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:45,499] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:45,503] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:45,503] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,503] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,503] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:45,507] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:45,507] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,507] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,507] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:45,510] [main] INFO  (Main:163) Register 3530: [R.E : 2320 ], [ j2mod : 2320 ]
+[2022-02-14 16:22:45,510] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,510] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,510] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:45,513] [main] INFO  (Main:172) Register 3960: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:45,513] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,513] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,513] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:45,516] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:45,516] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,516] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,516] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:45,519] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:45,519] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,519] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,519] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:45,522] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:45,523] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,523] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,523] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:45,525] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:45,526] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,526] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:45,526] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:45,527] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:50,529] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:50,529] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:50,531] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:50,533] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:50,537] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:50,537] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,537] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,537] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:50,541] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:50,541] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,541] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,541] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:50,544] [main] INFO  (Main:163) Register 3530: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:50,544] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,544] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,544] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:50,548] [main] INFO  (Main:172) Register 3960: [R.E : 2318 ], [ j2mod : 2318 ]
+[2022-02-14 16:22:50,548] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,548] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,548] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:50,552] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:50,552] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,552] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,553] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:50,556] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:50,556] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,556] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,556] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:50,560] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:50,560] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,560] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,561] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:50,564] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:50,565] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,565] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:50,565] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:50,567] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:22:55,569] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:22:55,570] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:22:55,571] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:22:55,572] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:22:55,576] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:55,577] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,577] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,577] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:22:55,580] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:22:55,580] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,580] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,580] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:22:55,583] [main] INFO  (Main:163) Register 3530: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:22:55,583] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,583] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,583] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:22:55,586] [main] INFO  (Main:172) Register 3960: [R.E : 2320 ], [ j2mod : 2320 ]
+[2022-02-14 16:22:55,587] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,587] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,587] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:22:55,589] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:55,590] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,590] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,590] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:22:55,593] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:22:55,593] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,593] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,593] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:22:55,596] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:55,596] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,596] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,596] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:22:55,599] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:22:55,599] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,599] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:22:55,599] [main] INFO  (Main:210) ====================
+[2022-02-14 16:22:55,601] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:23:00,604] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:23:00,604] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:23:00,606] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:23:00,607] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:23:00,612] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:23:00,612] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,612] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,612] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:23:00,615] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:23:00,615] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,615] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,615] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:23:00,618] [main] INFO  (Main:163) Register 3530: [R.E : 2318 ], [ j2mod : 2318 ]
+[2022-02-14 16:23:00,619] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,619] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,619] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:23:00,622] [main] INFO  (Main:172) Register 3960: [R.E : 2318 ], [ j2mod : 2318 ]
+[2022-02-14 16:23:00,622] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,622] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,622] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:23:00,626] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:00,626] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,626] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,626] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:23:00,630] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:00,631] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,631] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,631] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:23:00,635] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:00,635] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,635] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,635] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:23:00,639] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:00,639] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,639] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:00,640] [main] INFO  (Main:210) ====================
+[2022-02-14 16:23:00,641] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:23:05,646] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:23:05,647] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:23:05,648] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:23:05,649] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:23:05,672] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:23:05,672] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,672] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,672] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:23:05,675] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:23:05,675] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,676] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,676] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:23:05,679] [main] INFO  (Main:163) Register 3530: [R.E : 2321 ], [ j2mod : 2321 ]
+[2022-02-14 16:23:05,679] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,679] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,679] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:23:05,682] [main] INFO  (Main:172) Register 3960: [R.E : 2319 ], [ j2mod : 2319 ]
+[2022-02-14 16:23:05,682] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,682] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,682] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:23:05,685] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:05,685] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,685] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,685] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:23:05,688] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:05,688] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,688] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,689] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:23:05,692] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:05,692] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,692] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,692] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:23:05,695] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:05,695] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,695] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:05,695] [main] INFO  (Main:210) ====================
+[2022-02-14 16:23:05,696] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:23:10,698] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:23:10,699] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:23:10,700] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:23:10,701] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:23:10,706] [main] INFO  (Main:147) Register 3916: [R.E : 69 ], [ j2mod : 69 ]
+[2022-02-14 16:23:10,706] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,706] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,706] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:23:10,709] [main] INFO  (Main:155) Register 4346: [R.E : 69 ], [ j2mod : 69 ]
+[2022-02-14 16:23:10,709] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,709] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,709] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:23:10,712] [main] INFO  (Main:163) Register 3530: [R.E : 2321 ], [ j2mod : 2321 ]
+[2022-02-14 16:23:10,712] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,712] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,713] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:23:10,716] [main] INFO  (Main:172) Register 3960: [R.E : 2321 ], [ j2mod : 2321 ]
+[2022-02-14 16:23:10,716] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,716] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,716] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:23:10,719] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:10,719] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,719] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,720] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:23:10,723] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:10,723] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,723] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,723] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:23:10,726] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:10,726] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,726] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,726] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:23:10,729] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:10,729] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,729] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:10,729] [main] INFO  (Main:210) ====================
+[2022-02-14 16:23:10,731] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:23:15,735] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:23:15,736] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:23:15,738] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:23:15,740] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:23:15,745] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:23:15,745] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,745] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,746] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:23:15,749] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:23:15,749] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,750] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,750] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:23:15,753] [main] INFO  (Main:163) Register 3530: [R.E : 2321 ], [ j2mod : 2321 ]
+[2022-02-14 16:23:15,753] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,753] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,753] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:23:15,756] [main] INFO  (Main:172) Register 3960: [R.E : 2321 ], [ j2mod : 2321 ]
+[2022-02-14 16:23:15,756] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,756] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,756] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:23:15,760] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:15,760] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,760] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,760] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:23:15,764] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:15,764] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,764] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,764] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:23:15,767] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:15,767] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,767] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,767] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:23:15,771] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:15,771] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,771] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:15,771] [main] INFO  (Main:210) ====================
+[2022-02-14 16:23:15,773] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-14 16:23:20,776] [main] INFO  (Main:49) Connecting to
+[2022-02-14 16:23:20,776] [main] INFO  (Main:52) Janitza96 used!
+[2022-02-14 16:23:20,777] [main] INFO  (Main:55) Janitza96 is connected : true
+[2022-02-14 16:23:20,779] [main] INFO  (Main:143) === CURRENTS === MEASURED [mA]
+[2022-02-14 16:23:20,783] [main] INFO  (Main:147) Register 3916: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:23:20,783] [main] INFO  (Main:148) Register 39173917: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,783] [main] INFO  (Main:149) Register 39183918: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,783] [main] INFO  (Main:151) === CURRENTS === MEAN [mA]
+[2022-02-14 16:23:20,786] [main] INFO  (Main:155) Register 4346: [R.E : 70 ], [ j2mod : 70 ]
+[2022-02-14 16:23:20,787] [main] INFO  (Main:156) Register 4347: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,787] [main] INFO  (Main:157) Register 4348: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,787] [main] INFO  (Main:159) === VOLTAGE === MEASURED [V]
+[2022-02-14 16:23:20,790] [main] INFO  (Main:163) Register 3530: [R.E : 2323 ], [ j2mod : 2323 ]
+[2022-02-14 16:23:20,790] [main] INFO  (Main:164) Register 3531: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,790] [main] INFO  (Main:165) Register 3532: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,790] [main] INFO  (Main:168) === VOLTAGE === MEAN [V]
+[2022-02-14 16:23:20,793] [main] INFO  (Main:172) Register 3960: [R.E : 2322 ], [ j2mod : 2322 ]
+[2022-02-14 16:23:20,793] [main] INFO  (Main:173) Register 3961: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,793] [main] INFO  (Main:174) Register 3962: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,793] [main] INFO  (Main:177) === POWER ACTIVE === MEASURED [W]
+[2022-02-14 16:23:20,796] [main] INFO  (Main:181) Register 3920: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:20,796] [main] INFO  (Main:182) Register 3921: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,797] [main] INFO  (Main:183) Register 3922: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,797] [main] INFO  (Main:186) === POWER ACTIVE === MEAN [W]
+[2022-02-14 16:23:20,800] [main] INFO  (Main:190) Register 4350: [R.E : 100 ], [ j2mod : 100 ]
+[2022-02-14 16:23:20,800] [main] INFO  (Main:191) Register 4351: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,800] [main] INFO  (Main:192) Register 4352: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,800] [main] INFO  (Main:195) === POWER REACTIVE === MEASURED [var]
+[2022-02-14 16:23:20,803] [main] INFO  (Main:199) Register 3924: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:20,803] [main] INFO  (Main:200) Register 3925: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,803] [main] INFO  (Main:201) Register 3926: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,803] [main] INFO  (Main:203) === POWER REACTIVE === MEAN [var]
+[2022-02-14 16:23:20,806] [main] INFO  (Main:207) Register 4354: [R.E : -20 ], [ j2mod : -20 ]
+[2022-02-14 16:23:20,806] [main] INFO  (Main:208) Register 4355: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,806] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
+[2022-02-14 16:23:20,806] [main] INFO  (Main:210) ====================
+[2022-02-14 16:23:20,808] [main] INFO  (Main:84) Waiting 5 seconds
