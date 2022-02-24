@@ -36,7 +36,7 @@ public class modbus4jTest {
                     System.out.println("Currents  3916 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
                     System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
                     System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
-                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
+                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_SIGNED)));
                     System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
                     System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
 

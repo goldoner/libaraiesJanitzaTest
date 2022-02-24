@@ -163,69 +163,69 @@ public class Main {
         int currentsMeasuredRegister = 3916;
         Register[] currentsMeasuredJ2Mod = master.readMultipleRegisters(currentsMeasuredRegister, 3);
         int[] currentsMeasuredRossmannEngineering = modbusClient.ReadHoldingRegisters(currentsMeasuredRegister, 3);
-        log.info("Register " + (currentsMeasuredRegister) + ": [R.E : " + currentsMeasuredRossmannEngineering[0] + " ], [ j2mod : " + currentsMeasuredJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, currentsMeasuredRegister, DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (currentsMeasuredRegister + 1) + "3917: [R.E : " + currentsMeasuredRossmannEngineering[1] + " ], [ j2mod : " + currentsMeasuredJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (currentsMeasuredRegister + 1), DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (currentsMeasuredRegister + 2) + "3918: [R.E : " + currentsMeasuredRossmannEngineering[2] + " ], [ j2mod : " + currentsMeasuredJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (currentsMeasuredRegister + 2), DataType.FOUR_BYTE_FLOAT)) + " ]");
+        log.info("Register " + (currentsMeasuredRegister) + ": [R.E : " + currentsMeasuredRossmannEngineering[0] + " ], [ j2mod : " + currentsMeasuredJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, currentsMeasuredRegister, DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (currentsMeasuredRegister + 1) + "3917: [R.E : " + currentsMeasuredRossmannEngineering[1] + " ], [ j2mod : " + currentsMeasuredJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (currentsMeasuredRegister + 1), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (currentsMeasuredRegister + 2) + "3918: [R.E : " + currentsMeasuredRossmannEngineering[2] + " ], [ j2mod : " + currentsMeasuredJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (currentsMeasuredRegister + 2), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
 
         log.info("=== CURRENTS === MEAN [mA]");
         int currentsMeanRegister = 4346;
         Register[] currentsMeanJ2Mod = master.readMultipleRegisters(currentsMeanRegister, 3);
         int[] currentsMeanRossmannEngineering = modbusClient.ReadHoldingRegisters(currentsMeanRegister, 3);
-        log.info("Register " + (currentsMeanRegister) + ": [R.E : " + currentsMeanRossmannEngineering[0] + " ], [ j2mod : " + currentsMeanJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, currentsMeanRegister, DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (currentsMeanRegister + 1) + ": [R.E : " + currentsMeanRossmannEngineering[1] + " ], [ j2mod : " + currentsMeanJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (currentsMeanRegister + 1), DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (currentsMeanRegister + 2) + ": [R.E : " + currentsMeanRossmannEngineering[2] + " ], [ j2mod : " + currentsMeanJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (currentsMeanRegister + 2), DataType.FOUR_BYTE_FLOAT)) + " ]");
+        log.info("Register " + (currentsMeanRegister) + ": [R.E : " + currentsMeanRossmannEngineering[0] + " ], [ j2mod : " + currentsMeanJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, currentsMeanRegister, DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (currentsMeanRegister + 1) + ": [R.E : " + currentsMeanRossmannEngineering[1] + " ], [ j2mod : " + currentsMeanJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (currentsMeanRegister + 1), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (currentsMeanRegister + 2) + ": [R.E : " + currentsMeanRossmannEngineering[2] + " ], [ j2mod : " + currentsMeanJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (currentsMeanRegister + 2), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
 
         log.info("=== VOLTAGE === MEASURED [V]");
         int voltageMeasuredRegister = 3530;
         Register[] voltageMeasuredJ2Mod = master.readMultipleRegisters(voltageMeasuredRegister, 3);
         int[] voltageMeasuredRossmannEngineering = modbusClient.ReadHoldingRegisters(voltageMeasuredRegister, 3);
-        log.info("Register " + (voltageMeasuredRegister) + ": [R.E : " + voltageMeasuredRossmannEngineering[0] + " ], [ j2mod : " + voltageMeasuredJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, voltageMeasuredRegister, DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (voltageMeasuredRegister + 1) + ": [R.E : " + voltageMeasuredRossmannEngineering[1] + " ], [ j2mod : " + voltageMeasuredJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (voltageMeasuredRegister + 1), DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (voltageMeasuredRegister + 2) + ": [R.E : " + voltageMeasuredRossmannEngineering[2] + " ], [ j2mod : " + voltageMeasuredJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (voltageMeasuredRegister + 2), DataType.FOUR_BYTE_FLOAT)) + " ]");
+        log.info("Register " + (voltageMeasuredRegister) + ": [R.E : " + voltageMeasuredRossmannEngineering[0] + " ], [ j2mod : " + voltageMeasuredJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, voltageMeasuredRegister, DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (voltageMeasuredRegister + 1) + ": [R.E : " + voltageMeasuredRossmannEngineering[1] + " ], [ j2mod : " + voltageMeasuredJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (voltageMeasuredRegister + 1), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (voltageMeasuredRegister + 2) + ": [R.E : " + voltageMeasuredRossmannEngineering[2] + " ], [ j2mod : " + voltageMeasuredJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (voltageMeasuredRegister + 2), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
 
 
         log.info("=== VOLTAGE === MEAN [V]");
         int voltageMeanRegister = 3960;
         Register[] voltageMeanJ2Mod = master.readMultipleRegisters(voltageMeanRegister, 3);
         int[] voltageMeanRossmannEngineering = modbusClient.ReadHoldingRegisters(voltageMeanRegister, 3);
-        log.info("Register " + (voltageMeanRegister) + ": [R.E : " + voltageMeanRossmannEngineering[0] + " ], [ j2mod : " + voltageMeanJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, voltageMeanRegister, DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (voltageMeanRegister + 1) + ": [R.E : " + voltageMeanRossmannEngineering[1] + " ], [ j2mod : " + voltageMeanJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (voltageMeanRegister + 1), DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (voltageMeanRegister + 2) + ": [R.E : " + voltageMeanRossmannEngineering[2] + " ], [ j2mod : " + voltageMeanJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (voltageMeanRegister + 2), DataType.FOUR_BYTE_FLOAT)) + " ]");
+        log.info("Register " + (voltageMeanRegister) + ": [R.E : " + voltageMeanRossmannEngineering[0] + " ], [ j2mod : " + voltageMeanJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, voltageMeanRegister, DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (voltageMeanRegister + 1) + ": [R.E : " + voltageMeanRossmannEngineering[1] + " ], [ j2mod : " + voltageMeanJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (voltageMeanRegister + 1), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (voltageMeanRegister + 2) + ": [R.E : " + voltageMeanRossmannEngineering[2] + " ], [ j2mod : " + voltageMeanJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (voltageMeanRegister + 2), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
 
 
         log.info("=== POWER ACTIVE === MEASURED [W]");
         int powerActiveMeasuredRegister = 3920;
         Register[] powerActiveMeasuredJ2Mod = master.readMultipleRegisters(powerActiveMeasuredRegister, 3);
         int[] powerActiveMeasuredRossmannEngineering = modbusClient.ReadHoldingRegisters(powerActiveMeasuredRegister, 3);
-        log.info("Register " + (powerActiveMeasuredRegister) + ": [R.E : " + powerActiveMeasuredRossmannEngineering[0] + " ], [ j2mod : " + powerActiveMeasuredJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, powerActiveMeasuredRegister, DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (powerActiveMeasuredRegister + 1) + ": [R.E : " + powerActiveMeasuredRossmannEngineering[1] + " ], [ j2mod : " + powerActiveMeasuredJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerActiveMeasuredRegister + 1), DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (powerActiveMeasuredRegister + 2) + ": [R.E : " + powerActiveMeasuredRossmannEngineering[2] + " ], [ j2mod : " + powerActiveMeasuredJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerActiveMeasuredRegister + 2), DataType.FOUR_BYTE_FLOAT)) + " ]");
+        log.info("Register " + (powerActiveMeasuredRegister) + ": [R.E : " + powerActiveMeasuredRossmannEngineering[0] + " ], [ j2mod : " + powerActiveMeasuredJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, powerActiveMeasuredRegister, DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (powerActiveMeasuredRegister + 1) + ": [R.E : " + powerActiveMeasuredRossmannEngineering[1] + " ], [ j2mod : " + powerActiveMeasuredJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerActiveMeasuredRegister + 1), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (powerActiveMeasuredRegister + 2) + ": [R.E : " + powerActiveMeasuredRossmannEngineering[2] + " ], [ j2mod : " + powerActiveMeasuredJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerActiveMeasuredRegister + 2), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
 
 
         log.info("=== POWER ACTIVE === MEAN [W]");
         int powerActiveMeanRegister = 4350;
         Register[] powerActiveMeanJ2Mod = master.readMultipleRegisters(powerActiveMeanRegister, 3);
         int[] powerActiveMeanRossmannEngineering = modbusClient.ReadHoldingRegisters(powerActiveMeanRegister, 3);
-        log.info("Register " + (powerActiveMeanRegister) + ": [R.E : " + powerActiveMeanRossmannEngineering[0] + " ], [ j2mod : " + powerActiveMeanJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, powerActiveMeanRegister, DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (powerActiveMeanRegister + 1) + ": [R.E : " + powerActiveMeanRossmannEngineering[1] + " ], [ j2mod : " + powerActiveMeanJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerActiveMeanRegister + 1), DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (powerActiveMeanRegister + 2) + ": [R.E : " + powerActiveMeanRossmannEngineering[2] + " ], [ j2mod : " + powerActiveMeanJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerActiveMeanRegister + 2), DataType.FOUR_BYTE_FLOAT)) + " ]");
+        log.info("Register " + (powerActiveMeanRegister) + ": [R.E : " + powerActiveMeanRossmannEngineering[0] + " ], [ j2mod : " + powerActiveMeanJ2Mod[0] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, powerActiveMeanRegister, DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (powerActiveMeanRegister + 1) + ": [R.E : " + powerActiveMeanRossmannEngineering[1] + " ], [ j2mod : " + powerActiveMeanJ2Mod[1] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerActiveMeanRegister + 1), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (powerActiveMeanRegister + 2) + ": [R.E : " + powerActiveMeanRossmannEngineering[2] + " ], [ j2mod : " + powerActiveMeanJ2Mod[2] + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerActiveMeanRegister + 2), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
 
 
         log.info("=== POWER REACTIVE === MEASURED [var]");
         int powerReactiveMeasuredRegister = 3924;
         Register[] powerReactiveMeasuredJ2Mod = master.readMultipleRegisters(powerReactiveMeasuredRegister, 3);
         int[] powerReactiveMeasuredRossmannEngineering = modbusClient.ReadHoldingRegisters(powerReactiveMeasuredRegister, 3);
-        log.info("Register " + (powerReactiveMeasuredRegister) + ": [R.E : " + powerReactiveMeasuredRossmannEngineering[0] + " ], [ j2mod : " + powerReactiveMeasuredJ2Mod[0].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, powerReactiveMeasuredRegister, DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (powerReactiveMeasuredRegister + 1) + ": [R.E : " + powerReactiveMeasuredRossmannEngineering[1] + " ], [ j2mod : " + powerReactiveMeasuredJ2Mod[1].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerReactiveMeasuredRegister + 1), DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (powerReactiveMeasuredRegister + 2) + ": [R.E : " + powerReactiveMeasuredRossmannEngineering[2] + " ], [ j2mod : " + powerReactiveMeasuredJ2Mod[2].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerReactiveMeasuredRegister + 2), DataType.FOUR_BYTE_FLOAT)) + " ]");
+        log.info("Register " + (powerReactiveMeasuredRegister) + ": [R.E : " + powerReactiveMeasuredRossmannEngineering[0] + " ], [ j2mod : " + powerReactiveMeasuredJ2Mod[0].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, powerReactiveMeasuredRegister, DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (powerReactiveMeasuredRegister + 1) + ": [R.E : " + powerReactiveMeasuredRossmannEngineering[1] + " ], [ j2mod : " + powerReactiveMeasuredJ2Mod[1].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerReactiveMeasuredRegister + 1), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (powerReactiveMeasuredRegister + 2) + ": [R.E : " + powerReactiveMeasuredRossmannEngineering[2] + " ], [ j2mod : " + powerReactiveMeasuredJ2Mod[2].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerReactiveMeasuredRegister + 2), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
 
         log.info("=== POWER REACTIVE === MEAN [var]");
         int powerReactiveMeanRegister = 4354;
         Register[] powerReactiveMeanJ2Mod = master.readMultipleRegisters(powerReactiveMeanRegister, 3);
         int[] powerReactiveMeanRossmannEngineering = modbusClient.ReadHoldingRegisters(powerReactiveMeanRegister, 3);
-        log.info("Register " + (powerReactiveMeanRegister) + ": [R.E : " + powerReactiveMeanRossmannEngineering[0] + " ], [ j2mod : " + powerReactiveMeanJ2Mod[0].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, powerReactiveMeanRegister, DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (powerReactiveMeanRegister + 1) + ": [R.E : " + powerReactiveMeanRossmannEngineering[1] + " ], [ j2mod : " + powerReactiveMeanJ2Mod[1].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerReactiveMeanRegister + 1), DataType.FOUR_BYTE_FLOAT)) + " ]");
-        log.info("Register " + (powerReactiveMeanRegister + 2) + ": [R.E : " + powerReactiveMeanRossmannEngineering[2] + " ], [ j2mod : " + powerReactiveMeanJ2Mod[2].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerReactiveMeanRegister + 2), DataType.FOUR_BYTE_FLOAT)) + " ]");
+        log.info("Register " + (powerReactiveMeanRegister) + ": [R.E : " + powerReactiveMeanRossmannEngineering[0] + " ], [ j2mod : " + powerReactiveMeanJ2Mod[0].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, powerReactiveMeanRegister, DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (powerReactiveMeanRegister + 1) + ": [R.E : " + powerReactiveMeanRossmannEngineering[1] + " ], [ j2mod : " + powerReactiveMeanJ2Mod[1].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerReactiveMeanRegister + 1), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
+        log.info("Register " + (powerReactiveMeanRegister + 2) + ": [R.E : " + powerReactiveMeanRossmannEngineering[2] + " ], [ j2mod : " + powerReactiveMeanJ2Mod[2].toShort() + " ] [ modbus4j : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, (powerReactiveMeanRegister + 2), DataType.TWO_BYTE_INT_SIGNED)) + " ]");
         log.info("====================");
     }
 
