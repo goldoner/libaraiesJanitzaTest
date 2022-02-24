@@ -12,19 +12,14 @@ public class modbus4jTest {
 
 
         IpParameters ipParameters = new IpParameters();
-        // ipParameters.setHost("99.247.60.96");
-        // ipParameters.setHost("193.109.41.121");
-        //      ipParameters.setHost("10.241.224.195");
         ipParameters.setHost("10.0.0.55");
         ipParameters.setPort(502);
         ipParameters.setEncapsulated(false);
-
         ModbusFactory modbusFactory = new ModbusFactory();
-        // ModbusMaster master = modbusFactory.createTcpMaster(ipParameters, true);
-        ModbusMaster master = modbusFactory.createTcpMaster(ipParameters, false);
-        master.setTimeout(8000);
-        master.setRetries(3);
-        master.init();
+        ModbusMaster modbus4j = modbusFactory.createTcpMaster(ipParameters, false);
+        modbus4j.setTimeout(8000);
+        modbus4j.setRetries(3);
+        modbus4j.init();
 
         //        for (int i = 1; i < 5; i++) {
         //            System.out.print("Testing " + i + "... ");
@@ -38,81 +33,15 @@ public class modbus4jTest {
 
 
                 try {
-                    System.out.println("1 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
+                    System.out.println("Currents  3916 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
+                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
+                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
+                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
+                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
+                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
 
                 } catch (Exception ex) {
                     System.out.println("1. Exception");
-                }
-
-                try {
-                    System.out.println("2 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_FLOAT)));
-
-                } catch (Exception ex) {
-                    System.out.println("2. Exception");
-                }
-
-                try {
-                    System.out.println("3 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.BINARY)));
-
-                } catch (Exception ex) {
-                    System.out.println("3. Exception");
-                }
-
-                try {
-                    System.out.println("4 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_INT_SIGNED)));
-
-
-                } catch (Exception ex) {
-                    System.out.println("4. Exception");
-                }
-
-                try {
-                    System.out.println("5 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_INT_UNSIGNED)));
-                } catch (Exception ex) {
-                    System.out.println("5. Exception");
-                }
-
-                try {
-                    System.out.println("6 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_BCD)));
-
-
-                } catch (Exception ex) {
-                    System.out.println("6. Exception");
-                }
-
-                try {
-                    System.out.println("7 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.VARCHAR)));
-
-
-                } catch (Exception ex) {
-                    System.out.println("7. Exception");
-                }
-
-
-                try {
-
-                    System.out.println("8 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_SIGNED)));
-
-                } catch (Exception ex) {
-                    System.out.println("8. Exception");
-                }
-
-
-                try {
-
-                    System.out.println("9 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_UNSIGNED)));
-
-                } catch (Exception ex) {
-                    System.out.println("9. Exception");
-                }
-
-
-                try {
-                    System.out.println("10 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_BCD)));
-
-
-                } catch (Exception ex) {
-                    System.out.println("10. Exception");
                 }
 
 
@@ -135,7 +64,7 @@ public class modbus4jTest {
 
         // System.out.println(master.scanForSlaveNodes());
 
-        master.destroy();
+        modbus4j.destroy();
     }
 
 //        ModbusFactory factory = new ModbusFactory();

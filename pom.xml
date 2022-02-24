@@ -52,7 +52,11 @@
             <version>3.0.3</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.modbus</groupId>
+            <artifactId>modbus-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 
 
         <dependency>
@@ -103,7 +107,7 @@
                     <archive>
                         <manifest>
 <!--                            <mainClass>de.griddata.net2dg.modbus.MainRTU</mainClass>-->
-                            <mainClass>modbus4jTest</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

@@ -2043,3 +2043,15 @@
 [2022-02-14 16:23:20,806] [main] INFO  (Main:209) Register 4356: [R.E : 0 ], [ j2mod : 0 ]
 [2022-02-14 16:23:20,806] [main] INFO  (Main:210) ====================
 [2022-02-14 16:23:20,808] [main] INFO  (Main:84) Waiting 5 seconds
+[2022-02-24 15:01:56,542] [main] INFO  (Main:328) Janitza Name from configFile : Janitza96
+[2022-02-24 15:01:56,544] [main] INFO  (Main:51) Initialized start. J2MOD Library
+[2022-02-24 15:01:56,544] [main] INFO  (Main:57) Connecting to
+[2022-02-24 15:01:56,545] [main] INFO  (Main:60) Janitza96 used!
+[2022-02-24 15:02:37,341] [main] INFO  (Main:328) Janitza Name from configFile : Janitza96
+[2022-02-24 15:02:37,343] [main] INFO  (Main:51) Initialized start. J2MOD Library
+[2022-02-24 15:02:37,343] [main] INFO  (Main:57) Connecting to
+[2022-02-24 15:02:37,343] [main] INFO  (Main:60) Janitza96 used!
+[2022-02-24 15:02:40,402] [main] INFO  (Main:92) Waiting 5 seconds
+[2022-02-24 15:02:45,402] [main] INFO  (Main:57) Connecting to
+[2022-02-24 15:02:45,403] [main] INFO  (Main:60) Janitza96 used!
+[2022-02-24 15:02:45,406] [main] INFO  (Main:92) Waiting 5 seconds
