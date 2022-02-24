@@ -31,20 +31,21 @@ public class modbus4jTest {
         //            System.out.println(master.testSlaveNode(i));
         //        }
 
-        NumericLocator el1 = new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT);
-        NumericLocator el2 = new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3917, DataType.FOUR_BYTE_FLOAT);
-
-        NumericLocator fjk1 = new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3960, DataType.FOUR_BYTE_FLOAT);
-        NumericLocator fjk2 = new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3961, DataType.FOUR_BYTE_FLOAT);
 
         for (int i = 0; i < 100; i++) {
             try {
                 System.out.println("-------------------------------");
-                System.out.println("el1: " + master.getValue(el1));
-                System.out.println("el2: " + master.getValue(el2));
-                System.out.println();
-                System.out.println("fjk1: " + master.getValue(fjk1));
-                System.out.println("fjk2: " + master.getValue(fjk2));
+                System.out.println("1 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT));
+                System.out.println("2 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_FLOAT));
+                System.out.println("3 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.BINARY));
+                System.out.println("4 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_INT_SIGNED));
+                System.out.println("5 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.EIGHT_BYTE_INT_UNSIGNED));
+                System.out.println("6 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_BCD));
+                System.out.println("7 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.VARCHAR));
+                System.out.println("8 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_SIGNED));
+                System.out.println("9 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_UNSIGNED));
+                System.out.println("10 : " + new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_BCD));
+
                 System.out.println("-------------------------------");
                 Thread.sleep(5000);
             } catch (Exception e) {
