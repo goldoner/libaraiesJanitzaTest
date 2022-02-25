@@ -1,5 +1,6 @@
 TestSerialPortWrapper.class
 Main.class
+j2modSerialTest.class
 modbus4jTest.class
 MasterExample.class
 MasterReadTest.class

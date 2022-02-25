@@ -226,55 +226,25 @@ public class Main {
         serialParameters.setParity(AbstractSerialConnection.NO_PARITY);
         serialParameters.setDatabits(dataBits);
         AbstractModbusMaster master = new ModbusSerialMaster(serialParameters);
-        master.connect();
+
+        String[] interfaces = "ttyAMA0,ttyS0,ttyUSB0,ttyUSB1,ttyUSB2,ttyUSB3,ttyUSB4".split(",");
 
 
-//        int flowControlIn = 0;
-//        int flowControlOut = 0;
-//        int stopBits = 2;
-//        int parity = 0;
-//
-//        TestSerialPortWrapper wrapper = new TestSerialPortWrapper(serialInterface, baudrate, flowControlIn, flowControlOut, dataBits, stopBits, parity);
-//        ModbusMaster modbus4jserial = new ModbusFactory().createRtuMaster(wrapper);
-//        modbus4jserial.setTimeout(800);
-//        modbus4jserial.setRetries(1);
-//        modbus4jserial.init();
+        while (!master.isConnected()) {
 
-//        for (int i = 1; i < 5; i++) {
-//            long start = System.currentTimeMillis();
-//            System.out.print("Testing " + i + "... ");
-//            System.out.println(modbus4jserial.testSlaveNode(i));
-//            modbus4jserial.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 1233, DataType.TWO_BYTE_INT_SIGNED));
-//            System.out.println("Time: " + (System.currentTimeMillis() - start));
-//        }
+            for (int i = 0; i < interfaces.length || master.isConnected(); i++) {
+                serialParameters.setPortName(interfaces[i]);
 
+                try {
+                    master.connect();
+                } catch (Exception ex) {
+                    System.out.println("tried : " + interfaces[i] + " port, failed.");
+                }
 
-//        float time = (float) samplingInterval / 1000 / 60 / 60;
-//        log.info("[j2mod library] === CURRENTS === MEASURED [A] multipled with current transformer: " + ct_ratio_a);
-//        log.info("8000: " + (master.readMultipleRegisters(8000, 1)[0].getValue() * ct_ratio_a) / 1000);
-//        log.info("8001: " + (master.readMultipleRegisters(8001, 1)[0].getValue() * ct_ratio_b) / 1000);
-//        log.info("8002: " + (master.readMultipleRegisters(8002, 1)[0].getValue() * ct_ratio_c) / 1000);
-//        log.info("[j2mod library] === CURRENTS === MEAN [A] multipled with current transformer: " + ct_ratio_a);
-//        log.info("8157: " + (master.readMultipleRegisters(8157, 1)[0].getValue() * ct_ratio_a) / 1000);
-//        log.info("8158: " + (master.readMultipleRegisters(8158, 1)[0].getValue() * ct_ratio_b) / 1000);
-//        log.info("8159: " + (master.readMultipleRegisters(8159, 1)[0].getValue() * ct_ratio_c) / 1000);
-//        log.info("[j2mod library] === VOLTAGE === MEASURED [V] divided by 10 and multiplied with voltage transformer: " + vt_ratio_a);
-//        log.info("8003: " + master.readMultipleRegisters(8003, 1)[0].getValue() / 10 * vt_ratio_a);
-//        log.info("8004: " + master.readMultipleRegisters(8004, 1)[0].getValue() / 10 * vt_ratio_b);
-//        log.info("8005: " + master.readMultipleRegisters(8005, 1)[0].getValue() / 10 * vt_ratio_c);
-//        log.info("[j2mod library] === VOLTAGE === MEAN [V] divided by 10 and multiplied with voltage transformer: " + vt_ratio_a);
-//        log.info("8160: " + master.readMultipleRegisters(8160, 1)[0].getValue() / 10 * vt_ratio_a);
-//        log.info("8161: " + master.readMultipleRegisters(8161, 1)[0].getValue() / 10 * vt_ratio_b);
-//        log.info("8162: " + master.readMultipleRegisters(8162, 1)[0].getValue() / 10 * vt_ratio_c);
-//        log.info("[j2mod library] === Active power POWER transformed in Energy [kWh] ===");
-//        log.info("8166: " + master.readMultipleRegisters(8166, 1)[0].toShort() / 10 * time * ct_ratio_a * vt_ratio_a / 1000);
-//        log.info("8167: " + master.readMultipleRegisters(8167, 1)[0].toShort() / 10 * time * ct_ratio_b * vt_ratio_b / 1000);
-//        log.info("8168: " + master.readMultipleRegisters(8168, 1)[0].toShort() / 10 * time * ct_ratio_c * vt_ratio_c / 1000);
-//        log.info("[j2mod library] === Reactive power POWER transformed in Energy [kWh] ===");
-//        log.info("8172: " + master.readMultipleRegisters(8172, 1)[0].toShort() / 10 * time * ct_ratio_a * vt_ratio_a / 1000);
-//        log.info("8173: " + master.readMultipleRegisters(8173, 1)[0].toShort() / 10 * time * ct_ratio_b * vt_ratio_b / 1000);
-//        log.info("8174: " + master.readMultipleRegisters(8174, 1)[0].toShort() / 10 * time * ct_ratio_c * vt_ratio_c / 1000);
-//        log.info("=========[j2mod library] ===========");
+            }
+
+        }
+
 
         log.info("=== CURRENTS === MEASURED [mA] j2mod library");
         int currentsMeasuredRegister = 8000;
@@ -364,4 +334,52 @@ public class Main {
         janitzaName = (p.getProperty("janitza.name"));
         log.info("Janitza Name from configFile : " + p.getProperty("janitza.name"));
     }
+
+
+//        int flowControlIn = 0;
+//        int flowControlOut = 0;
+//        int stopBits = 2;
+//        int parity = 0;
+//
+//        TestSerialPortWrapper wrapper = new TestSerialPortWrapper(serialInterface, baudrate, flowControlIn, flowControlOut, dataBits, stopBits, parity);
+//        ModbusMaster modbus4jserial = new ModbusFactory().createRtuMaster(wrapper);
+//        modbus4jserial.setTimeout(800);
+//        modbus4jserial.setRetries(1);
+//        modbus4jserial.init();
+
+//        for (int i = 1; i < 5; i++) {
+//            long start = System.currentTimeMillis();
+//            System.out.print("Testing " + i + "... ");
+//            System.out.println(modbus4jserial.testSlaveNode(i));
+//            modbus4jserial.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 1233, DataType.TWO_BYTE_INT_SIGNED));
+//            System.out.println("Time: " + (System.currentTimeMillis() - start));
+//        }
+
+
+//        float time = (float) samplingInterval / 1000 / 60 / 60;
+//        log.info("[j2mod library] === CURRENTS === MEASURED [A] multipled with current transformer: " + ct_ratio_a);
+//        log.info("8000: " + (master.readMultipleRegisters(8000, 1)[0].getValue() * ct_ratio_a) / 1000);
+//        log.info("8001: " + (master.readMultipleRegisters(8001, 1)[0].getValue() * ct_ratio_b) / 1000);
+//        log.info("8002: " + (master.readMultipleRegisters(8002, 1)[0].getValue() * ct_ratio_c) / 1000);
+//        log.info("[j2mod library] === CURRENTS === MEAN [A] multipled with current transformer: " + ct_ratio_a);
+//        log.info("8157: " + (master.readMultipleRegisters(8157, 1)[0].getValue() * ct_ratio_a) / 1000);
+//        log.info("8158: " + (master.readMultipleRegisters(8158, 1)[0].getValue() * ct_ratio_b) / 1000);
+//        log.info("8159: " + (master.readMultipleRegisters(8159, 1)[0].getValue() * ct_ratio_c) / 1000);
+//        log.info("[j2mod library] === VOLTAGE === MEASURED [V] divided by 10 and multiplied with voltage transformer: " + vt_ratio_a);
+//        log.info("8003: " + master.readMultipleRegisters(8003, 1)[0].getValue() / 10 * vt_ratio_a);
+//        log.info("8004: " + master.readMultipleRegisters(8004, 1)[0].getValue() / 10 * vt_ratio_b);
+//        log.info("8005: " + master.readMultipleRegisters(8005, 1)[0].getValue() / 10 * vt_ratio_c);
+//        log.info("[j2mod library] === VOLTAGE === MEAN [V] divided by 10 and multiplied with voltage transformer: " + vt_ratio_a);
+//        log.info("8160: " + master.readMultipleRegisters(8160, 1)[0].getValue() / 10 * vt_ratio_a);
+//        log.info("8161: " + master.readMultipleRegisters(8161, 1)[0].getValue() / 10 * vt_ratio_b);
+//        log.info("8162: " + master.readMultipleRegisters(8162, 1)[0].getValue() / 10 * vt_ratio_c);
+//        log.info("[j2mod library] === Active power POWER transformed in Energy [kWh] ===");
+//        log.info("8166: " + master.readMultipleRegisters(8166, 1)[0].toShort() / 10 * time * ct_ratio_a * vt_ratio_a / 1000);
+//        log.info("8167: " + master.readMultipleRegisters(8167, 1)[0].toShort() / 10 * time * ct_ratio_b * vt_ratio_b / 1000);
+//        log.info("8168: " + master.readMultipleRegisters(8168, 1)[0].toShort() / 10 * time * ct_ratio_c * vt_ratio_c / 1000);
+//        log.info("[j2mod library] === Reactive power POWER transformed in Energy [kWh] ===");
+//        log.info("8172: " + master.readMultipleRegisters(8172, 1)[0].toShort() / 10 * time * ct_ratio_a * vt_ratio_a / 1000);
+//        log.info("8173: " + master.readMultipleRegisters(8173, 1)[0].toShort() / 10 * time * ct_ratio_b * vt_ratio_b / 1000);
+//        log.info("8174: " + master.readMultipleRegisters(8174, 1)[0].toShort() / 10 * time * ct_ratio_c * vt_ratio_c / 1000);
+//        log.info("=========[j2mod library] ===========");
 }
