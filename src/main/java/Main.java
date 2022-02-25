@@ -224,7 +224,7 @@ public class Main {
         serialParameters.setBaudRate(baudrate);
         serialParameters.setStopbits(AbstractSerialConnection.TWO_STOP_BITS);
         serialParameters.setParity(AbstractSerialConnection.NO_PARITY);
-        serialParameters.setDatabits(8);
+        serialParameters.setDatabits(dataBits);
         AbstractModbusMaster master = new ModbusSerialMaster(serialParameters);
         master.connect();
 
