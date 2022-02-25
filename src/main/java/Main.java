@@ -229,24 +229,24 @@ public class Main {
         master.connect();
 
 
-        int flowControlIn = 0;
-        int flowControlOut = 0;
-        int stopBits = 2;
-        int parity = 0;
+//        int flowControlIn = 0;
+//        int flowControlOut = 0;
+//        int stopBits = 2;
+//        int parity = 0;
+//
+//        TestSerialPortWrapper wrapper = new TestSerialPortWrapper(serialInterface, baudrate, flowControlIn, flowControlOut, dataBits, stopBits, parity);
+//        ModbusMaster modbus4jserial = new ModbusFactory().createRtuMaster(wrapper);
+//        modbus4jserial.setTimeout(800);
+//        modbus4jserial.setRetries(1);
+//        modbus4jserial.init();
 
-        TestSerialPortWrapper wrapper = new TestSerialPortWrapper(serialInterface, baudrate, flowControlIn, flowControlOut, dataBits, stopBits, parity);
-        ModbusMaster modbus4jserial = new ModbusFactory().createRtuMaster(wrapper);
-        modbus4jserial.setTimeout(800);
-        modbus4jserial.setRetries(1);
-        modbus4jserial.init();
-
-        for (int i = 1; i < 5; i++) {
-            long start = System.currentTimeMillis();
-            System.out.print("Testing " + i + "... ");
-            System.out.println(modbus4jserial.testSlaveNode(i));
-            modbus4jserial.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 1233, DataType.TWO_BYTE_INT_SIGNED));
-            System.out.println("Time: " + (System.currentTimeMillis() - start));
-        }
+//        for (int i = 1; i < 5; i++) {
+//            long start = System.currentTimeMillis();
+//            System.out.print("Testing " + i + "... ");
+//            System.out.println(modbus4jserial.testSlaveNode(i));
+//            modbus4jserial.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 1233, DataType.TWO_BYTE_INT_SIGNED));
+//            System.out.println("Time: " + (System.currentTimeMillis() - start));
+//        }
 
 
 //        float time = (float) samplingInterval / 1000 / 60 / 60;
