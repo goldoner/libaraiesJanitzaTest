@@ -107,7 +107,7 @@
                     <archive>
                         <manifest>
 <!--                            <mainClass>de.griddata.net2dg.modbus.MainRTU</mainClass>-->
-                            <mainClass>modbus4jTest</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

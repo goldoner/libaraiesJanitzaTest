@@ -277,46 +277,67 @@ public class Main {
 //        log.info("=========[j2mod library] ===========");
 
         log.info("=== CURRENTS === MEASURED [mA] j2mod library");
-        Register[] c = master.readMultipleRegisters(8000, 3);
-        log.info("8000: " + c[0].getValue());
-        log.info("8001: " + c[1].getValue());
-        log.info("8002: " + c[2].getValue());
+        int currentsMeasuredRegister = 8000;
+        Register[] c = master.readMultipleRegisters(currentsMeasuredRegister, 3);
+        log.info("Register " + currentsMeasuredRegister + " :  [ j2mod serial : " + c[0].getValue() + " ] ");
+        log.info("Register " + (currentsMeasuredRegister + 1) + " :  [ j2mod serial : " + c[1].getValue() + " ] ");
+        log.info("Register " + (currentsMeasuredRegister + 2) + " :  [ j2mod serial : " + c[2].getValue() + " ] ");
+
+
         log.info("=== CURRENTS === MEAN [mA] j2mod library");
-        Register[] cm = master.readMultipleRegisters(8157, 3);
-        log.info("8157: " + cm[0].getValue());
-        log.info("8158: " + cm[1].getValue());
-        log.info("8159: " + cm[2].getValue());
+        int currentsMeanRegister = 8157;
+        Register[] cm = master.readMultipleRegisters(currentsMeanRegister, 3);
+        log.info("Register " + currentsMeanRegister + " : [ j2mod serial : " + cm[0].getValue() + " ] ");
+        log.info("Register " + (currentsMeanRegister + 1) + " : [ j2mod serial : " + cm[1].getValue() + " ] ");
+        log.info("Register " + (currentsMeanRegister + 2) + " : [ j2mod serial : " + cm[2].getValue() + " ] ");
+
+
         log.info("=== VOLTAGE === MEASURED [V] j2mod library");
-        Register[] v = master.readMultipleRegisters(8003, 3);
-        log.info("8003: " + v[0].getValue());
-        log.info("8004: " + v[1].getValue());
-        log.info("8005: " + v[2].getValue());
+        int voltageMeasuredRegister = 8003;
+        Register[] v = master.readMultipleRegisters(voltageMeasuredRegister, 3);
+        log.info("Register " + voltageMeasuredRegister + " : [ j2mod serial : " + v[0].getValue() + " ] ");
+        log.info("Register " + (voltageMeasuredRegister + 1) + " : [ j2mod serial : " + v[1].getValue() + " ] ");
+        log.info("Register " + (voltageMeasuredRegister + 2) + " : [ j2mod serial : " + v[2].getValue() + " ] ");
+
+
         log.info("=== VOLTAGE === MEAN [V] j2mod library");
-        Register[] vm = master.readMultipleRegisters(8160, 3);
-        log.info("8160: " + vm[0].getValue());
-        log.info("8161: " + vm[1].getValue());
-        log.info("8162: " + vm[2].getValue());
+        int voltageMeanRegister = 8160;
+        Register[] vm = master.readMultipleRegisters(voltageMeanRegister, 3);
+        log.info("Register " + voltageMeanRegister + " : [ j2mod serial : " + vm[0].getValue() + " ] ");
+        log.info("Register " + (voltageMeanRegister + 1) + " : [ j2mod serial : " + vm[1].getValue() + " ] ");
+        log.info("Register " + (voltageMeanRegister + 2) + " : [ j2mod serial : " + vm[2].getValue() + " ] ");
+
+
         log.info("=== POWER ACTIVE === MEASURED [W] j2mod library");
-        Register[] pa = master.readMultipleRegisters(8009, 3);
-        log.info("8009: " + pa[0].getValue());
-        log.info("8010: " + pa[1].getValue());
-        log.info("8011: " + pa[2].getValue());
+        int powerActiveMeasuredRegister = 8009;
+        Register[] pa = master.readMultipleRegisters(powerActiveMeasuredRegister, 3);
+        log.info("Register " + powerActiveMeasuredRegister + " : [ j2mod serial : " + pa[0].getValue() + " ] ");
+        log.info("Register " + (powerActiveMeasuredRegister + 1) + " : [ j2mod serial : " + pa[1].getValue() + " ] ");
+        log.info("Register " + (powerActiveMeasuredRegister + 2) + " : [ j2mod serial : " + pa[2].getValue() + " ] ");
+
         log.info("=== POWER ACTIVE === MEAN [W] j2mod library");
-        Register[] pam = master.readMultipleRegisters(8166, 3);
-        log.info("8166: " + pam[0].getValue());
-        log.info("8167: " + pam[1].getValue());
-        log.info("8168: " + pam[2].getValue());
+        int powerActiveMeanRegister = 8166;
+        Register[] pam = master.readMultipleRegisters(powerActiveMeanRegister, 3);
+        log.info("Register" + powerActiveMeanRegister + ": [ j2mod serial : " + pam[0].getValue() + " ] ");
+        log.info("Register" + (powerActiveMeanRegister + 1) + ": [ j2mod serial : " + pam[1].getValue() + " ] ");
+        log.info("Register" + (powerActiveMeanRegister + 2) + ": [ j2mod serial : " + pam[2].getValue() + " ] ");
+
+
         log.info("=== POWER REACTIVE === MEASURED [var] j2mod library");
+        int powerReactiveMeasuredRegister = 8015;
         Register[] pr = master.readMultipleRegisters(8015, 3);
-        log.info("8015: " + pr[0].toShort());
-        log.info("8016: " + pr[1].toShort());
-        log.info("8017: " + pr[2].toShort());
+        log.info("Register " + powerReactiveMeasuredRegister + " : [ j2mod serial : " + pr[0].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeasuredRegister + 1) + " : [ j2mod serial : " + pr[1].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeasuredRegister + 2) + " : [ j2mod serial : " + pr[2].toShort() + " ] ");
+
+
         log.info("=== POWER REACTIVE === MEAN [var] j2mod library");
-        Register[] prm = master.readMultipleRegisters(8172, 3);
-        log.info("8172: " + prm[0].toShort());
-        log.info("8173: " + prm[1].toShort());
-        log.info("8174: " + prm[2].toShort());
-        log.info("=========j2mod library test===========");
+        int powerReactiveMeanRegister = 8172;
+        Register[] prm = master.readMultipleRegisters(powerReactiveMeanRegister, 3);
+        log.info("Register " + powerReactiveMeanRegister + " : [ j2mod serial : " + prm[0].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeanRegister + 1) + " : [ j2mod serial : " + prm[0].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeanRegister + 2) + " : [ j2mod serial : " + prm[0].toShort() + " ] ");
+        log.info("====================");
     }
 
     private static void readConfFile(String path1, String path2) throws IOException {
