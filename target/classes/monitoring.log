@@ -2055,3 +2055,6 @@
 [2022-02-24 15:02:45,402] [main] INFO  (Main:57) Connecting to
 [2022-02-24 15:02:45,403] [main] INFO  (Main:60) Janitza96 used!
 [2022-02-24 15:02:45,406] [main] INFO  (Main:92) Waiting 5 seconds
+[2022-02-25 09:47:18,469] [main] INFO  (modbus4jTest:112) Janitza Name from configFile : Janitza96
+[2022-02-25 09:52:19,309] [main] INFO  (modbus4jTest:115) Janitza Name from configFile : Janitza96
+[2022-02-25 09:54:01,828] [main] INFO  (modbus4jTest:115) Janitza Name from configFile : Janitza96

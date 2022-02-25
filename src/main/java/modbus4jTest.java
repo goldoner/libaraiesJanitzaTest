@@ -1,6 +1,9 @@
 import com.serotonin.modbus4j.ModbusFactory;
 import com.serotonin.modbus4j.ModbusMaster;
+import com.serotonin.modbus4j.code.DataType;
+import com.serotonin.modbus4j.code.RegisterRange;
 import com.serotonin.modbus4j.exception.ModbusInitException;
+import com.serotonin.modbus4j.locator.NumericLocator;
 import com.serotonin.modbus4j.msg.ReadHoldingRegistersRequest;
 import org.apache.log4j.Logger;
 
@@ -22,7 +25,8 @@ public class modbus4jTest {
 
     private static final Logger log = Logger.getLogger(modbus4jTest.class);
 
-    public static void main(String[] args) throws ModbusInitException, InterruptedException {
+    public static void main(String[] args) throws ModbusInitException, InterruptedException, IOException {
+        readConfFile("config.properties", "src/main/resources/config.properties");
 
         int flowControlIn = 0;
         int flowControlOut = 0;
@@ -38,40 +42,40 @@ public class modbus4jTest {
         for (int i = 1; i < 100; i++) {
 
             try {
-                System.out.println("8000 : " + master.send(new ReadHoldingRegistersRequest(1, 8000, 1)));
+                System.out.println("8000 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 8000, DataType.TWO_BYTE_INT_SIGNED)));
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
             try {
-                System.out.println("8157 : " + master.send(new ReadHoldingRegistersRequest(1, 8157, 1)));
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-
-            try {
-                System.out.println("8003 : " + master.send(new ReadHoldingRegistersRequest(1, 8003, 1)));
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-            try {
-                System.out.println("8160 : " + master.send(new ReadHoldingRegistersRequest(1, 8160, 1)));
+                System.out.println("8157 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 8157, DataType.TWO_BYTE_INT_SIGNED)));
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
 
             try {
-                System.out.println("8166 : " + master.send(new ReadHoldingRegistersRequest(1, 8166, 1)));
+                System.out.println("8003 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 8003, DataType.TWO_BYTE_INT_SIGNED)));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            try {
+                System.out.println("8160 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 8160, DataType.TWO_BYTE_INT_SIGNED)));
             } catch (Exception e) {
                 e.printStackTrace();
             }
 
 
             try {
-                System.out.println("8172 : " + master.send(new ReadHoldingRegistersRequest(1, 8172, 1)));
+                System.out.println("8166 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 8166, DataType.TWO_BYTE_INT_SIGNED)));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            try {
+                System.out.println("8172 : " + master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 8172, DataType.TWO_BYTE_INT_SIGNED)));
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -106,7 +110,6 @@ public class modbus4jTest {
         port = Integer.parseInt(p.getProperty("device.port"));
         baudrate = Integer.parseInt(p.getProperty("serial.baudrate"));
         serialInterface = p.getProperty("serial.interface");
-        register = Integer.parseInt(p.getProperty("device.register"));
         dataBits = Integer.parseInt(p.getProperty("serial.databits"));
         janitzaName = (p.getProperty("janitza.name"));
         log.info("Janitza Name from configFile : " + p.getProperty("janitza.name"));

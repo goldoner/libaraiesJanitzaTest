@@ -80,7 +80,7 @@ public class TestSerialPortWrapper implements SerialPortWrapper{
     @Override
     public int getBaudRate() {
         // TODO Auto-generated method stub
-        return 0;
+        return this.baudRate;
     }
 
     @Override
@@ -99,7 +99,7 @@ public class TestSerialPortWrapper implements SerialPortWrapper{
     @Override
     public int getStopBits() {
         // TODO Auto-generated method stub
-        return 0;
+        return this.stopBits;
     }
 
     /* (non-Javadoc)
@@ -108,7 +108,7 @@ public class TestSerialPortWrapper implements SerialPortWrapper{
     @Override
     public int getParity() {
         // TODO Auto-generated method stub
-        return 0;
+        return this.parity;
     }
 
     /* (non-Javadoc)
@@ -117,7 +117,7 @@ public class TestSerialPortWrapper implements SerialPortWrapper{
     @Override
     public int getDataBits() {
         // TODO Auto-generated method stub
-        return 0;
+        return this.dataBits;
     }
 
 }

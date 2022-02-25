@@ -339,7 +339,6 @@ public class Main {
         port = Integer.parseInt(p.getProperty("device.port"));
         baudrate = Integer.parseInt(p.getProperty("serial.baudrate"));
         serialInterface = p.getProperty("serial.interface");
-        register = Integer.parseInt(p.getProperty("device.register"));
         dataBits = Integer.parseInt(p.getProperty("serial.databits"));
         janitzaName = (p.getProperty("janitza.name"));
         log.info("Janitza Name from configFile : " + p.getProperty("janitza.name"));
