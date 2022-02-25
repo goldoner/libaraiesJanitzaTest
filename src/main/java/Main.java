@@ -30,6 +30,7 @@ public class Main {
     public static Integer port;
     public static Integer baudrate;
     public static Integer register;
+    public static Integer dataBits;
     public static String serialInterface;
     private static final Logger log = Logger.getLogger(Main.class);
 
@@ -45,12 +46,8 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException, IOException {
         readConfFile("config.properties", "src/main/resources/config.properties");
-        AbstractModbusMaster master = null;
 
-
-        log.info("Initialized start. J2MOD Library");
         while (true) {
-
 
             try {
 
@@ -58,35 +55,15 @@ public class Main {
 
                 if (janitzaName.equals("Janitza96")) {
                     log.info("Janitza96 used!");
-                    master = new ModbusTCPMaster(ip);
-                    master.connect();
-                    log.info("Janitza96 is connected : " + master.isConnected());
-                    logRegistersOfJanitza96(master);
+                    logRegistersOfJanitza96();
 
                 } else if (janitzaName.equals("Janitza503")) {
-                    log.info("Janitza503 used!");
-                    SerialParameters serialParameters = new SerialParameters();
-                    serialParameters.setPortName(serialInterface);
-                    serialParameters.setBaudRate(baudrate);
-                    serialParameters.setStopbits(AbstractSerialConnection.TWO_STOP_BITS);
-                    serialParameters.setParity(AbstractSerialConnection.NO_PARITY);
-                    serialParameters.setDatabits(8);
-                    master = new ModbusSerialMaster(serialParameters);
-                    master.connect();
-                    log.info("Janitza503 is connected : " + master.isConnected());
-
-                    logRegistersOfJanitza503(master);
-
-
+                    logRegistersOfJanitza503();
                 }
 
 
             } catch (Exception e) {
                 e.printStackTrace();
-            } finally {
-                if (master != null) {
-                    master.disconnect();
-                }
             }
 
             log.info("Waiting 5 seconds");
@@ -144,19 +121,29 @@ public class Main {
         System.out.println("====================");
     }
 
-    public static void logRegistersOfJanitza96(AbstractModbusMaster master) throws ModbusException, IOException, de.re.easymodbus.exceptions.ModbusException, ModbusInitException, ModbusTransportException, ErrorResponseException {
+    public static void logRegistersOfJanitza96() throws Exception {
+
+
+        AbstractModbusMaster master = new ModbusTCPMaster(ip);
+        master.connect();
+
+
         ModbusClient modbusClient = new ModbusClient(ip, port); // RossmannEngineering
         modbusClient.Connect(); // RossmannEngineering
 
         IpParameters ipParameters = new IpParameters();
-        ipParameters.setHost("10.0.0.55");
-        ipParameters.setPort(502);
+        ipParameters.setHost(ip);
+        ipParameters.setPort(port);
         ipParameters.setEncapsulated(false);
         ModbusFactory modbusFactory = new ModbusFactory();
         ModbusMaster modbus4j = modbusFactory.createTcpMaster(ipParameters, false);
         modbus4j.setTimeout(8000);
         modbus4j.setRetries(1);
         modbus4j.init();
+
+        log.info("Rossmann Engineering Modbus is connected : " + modbusClient.isConnected());
+        log.info("j2mod is connected : " + master.isConnected());
+        log.info("mod4j is connected : " + modbus4j.isConnected());
 
 
         log.info("=== CURRENTS === MEASURED [mA]");
@@ -230,7 +217,36 @@ public class Main {
     }
 
 
-    public static void logRegistersOfJanitza503(AbstractModbusMaster master) throws ModbusException {
+    public static void logRegistersOfJanitza503() throws Exception {
+
+        SerialParameters serialParameters = new SerialParameters();
+        serialParameters.setPortName(serialInterface);
+        serialParameters.setBaudRate(baudrate);
+        serialParameters.setStopbits(AbstractSerialConnection.TWO_STOP_BITS);
+        serialParameters.setParity(AbstractSerialConnection.NO_PARITY);
+        serialParameters.setDatabits(8);
+        AbstractModbusMaster master = new ModbusSerialMaster(serialParameters);
+        master.connect();
+
+
+        int flowControlIn = 0;
+        int flowControlOut = 0;
+        int stopBits = 2;
+        int parity = 0;
+
+        TestSerialPortWrapper wrapper = new TestSerialPortWrapper(serialInterface, baudrate, flowControlIn, flowControlOut, dataBits, stopBits, parity);
+        ModbusMaster modbus4jserial = new ModbusFactory().createRtuMaster(wrapper);
+        modbus4jserial.setTimeout(800);
+        modbus4jserial.setRetries(1);
+        modbus4jserial.init();
+
+        for (int i = 1; i < 5; i++) {
+            long start = System.currentTimeMillis();
+            System.out.print("Testing " + i + "... ");
+            System.out.println(modbus4jserial.testSlaveNode(i));
+            modbus4jserial.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 1233, DataType.TWO_BYTE_INT_SIGNED));
+            System.out.println("Time: " + (System.currentTimeMillis() - start));
+        }
 
 
 //        float time = (float) samplingInterval / 1000 / 60 / 60;
@@ -324,6 +340,7 @@ public class Main {
         baudrate = Integer.parseInt(p.getProperty("serial.baudrate"));
         serialInterface = p.getProperty("serial.interface");
         register = Integer.parseInt(p.getProperty("device.register"));
+        dataBits = Integer.parseInt(p.getProperty("serial.databits"));
         janitzaName = (p.getProperty("janitza.name"));
         log.info("Janitza Name from configFile : " + p.getProperty("janitza.name"));
     }

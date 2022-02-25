@@ -1,103 +1,115 @@
 import com.serotonin.modbus4j.ModbusFactory;
 import com.serotonin.modbus4j.ModbusMaster;
-import com.serotonin.modbus4j.code.DataType;
-import com.serotonin.modbus4j.code.RegisterRange;
 import com.serotonin.modbus4j.exception.ModbusInitException;
-import com.serotonin.modbus4j.ip.IpParameters;
-import com.serotonin.modbus4j.locator.NumericLocator;
+import com.serotonin.modbus4j.msg.ReadHoldingRegistersRequest;
+import org.apache.log4j.Logger;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 public class modbus4jTest {
 
-    public static void main(String[] args) throws ModbusInitException {
 
+    public static String ip;
+    public static String janitzaName;
+    public static Integer port;
+    public static Integer baudrate;
+    public static Integer register;
+    public static Integer dataBits;
+    public static String serialInterface;
 
-        IpParameters ipParameters = new IpParameters();
-        ipParameters.setHost("10.0.0.55");
-        ipParameters.setPort(502);
-        ipParameters.setEncapsulated(false);
-        ModbusFactory modbusFactory = new ModbusFactory();
-        ModbusMaster modbus4j = modbusFactory.createTcpMaster(ipParameters, false);
-        modbus4j.setTimeout(8000);
-        modbus4j.setRetries(3);
-        modbus4j.init();
+    private static final Logger log = Logger.getLogger(modbus4jTest.class);
 
-        //        for (int i = 1; i < 5; i++) {
-        //            System.out.print("Testing " + i + "... ");
-        //            System.out.println(master.testSlaveNode(i));
-        //        }
+    public static void main(String[] args) throws ModbusInitException, InterruptedException {
 
+        int flowControlIn = 0;
+        int flowControlOut = 0;
+        int stopBits = 2;
+        int parity = 0;
 
-        for (int i = 0; i < 100; i++) {
+        TestSerialPortWrapper wrapper = new TestSerialPortWrapper(serialInterface, baudrate, flowControlIn, flowControlOut, dataBits, stopBits, parity);
+        ModbusMaster master = new ModbusFactory().createRtuMaster(wrapper);
+        master.setTimeout(200);
+        master.setRetries(1);
+        master.init();
+
+        for (int i = 1; i < 100; i++) {
+
             try {
-                System.out.println("-------------------------------");
-
-
-                try {
-                    System.out.println("Currents  3916 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
-                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
-                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
-                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.TWO_BYTE_INT_SIGNED)));
-                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
-                    System.out.println("1 : " + modbus4j.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 3916, DataType.FOUR_BYTE_FLOAT)));
-
-                } catch (Exception ex) {
-                    System.out.println("1. Exception");
-                }
-
-
-                System.out.println("-------------------------------");
-                Thread.sleep(5000);
+                System.out.println("8000 : " + master.send(new ReadHoldingRegistersRequest(1, 8000, 1)));
             } catch (Exception e) {
                 e.printStackTrace();
             }
+
+            try {
+                System.out.println("8157 : " + master.send(new ReadHoldingRegistersRequest(1, 8157, 1)));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            try {
+                System.out.println("8003 : " + master.send(new ReadHoldingRegistersRequest(1, 8003, 1)));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            try {
+                System.out.println("8160 : " + master.send(new ReadHoldingRegistersRequest(1, 8160, 1)));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            try {
+                System.out.println("8166 : " + master.send(new ReadHoldingRegistersRequest(1, 8166, 1)));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            try {
+                System.out.println("8172 : " + master.send(new ReadHoldingRegistersRequest(1, 8172, 1)));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            Thread.sleep(5000);
+
         }
 
-        // try {
-        // // ReadCoilsRequest request = new ReadCoilsRequest(2, 65534, 1);
-        // ReadHoldingRegistersResponse response = (ReadHoldingRegistersResponse) master
-        // .send(new ReadHoldingRegistersRequest(2, 0, 1));
-        // System.out.println(response);
-        // }
-        // catch (Exception e) {
-        // e.printStackTrace();
-        // }
 
-        // System.out.println(master.scanForSlaveNodes());
-
-        modbus4j.destroy();
+        master.destroy();
     }
 
-//        ModbusFactory factory = new ModbusFactory();
-//        IpParameters params = new IpParameters();
-//
-//        //        params.setHost("127.0.0.1");
-//        //        params.setPort(502);
-//        //        params.setEncapsulated(true);
-//
-//        params.setHost("10.0.0.55");
-//        params.setPort(502);
-//        params.setEncapsulated(false);
-//
-//        ModbusMaster master = factory.createTcpMaster(params, true);
-//         master.setRetries(4);
-//        master.setTimeout(5000);
-//        master.setRetries(0);
-//
-//        long start = System.currentTimeMillis();
-//        try {
-//            master.init();
-//            for (int i = 0; i < 100; i++) {
-//                System.out.println(master.getValue(new NumericLocator(1, RegisterRange.HOLDING_REGISTER, 11,
-//                        DataType.TWO_BYTE_INT_SIGNED)));
-//            }
-//        } catch (Exception ex) {
-//            ex.printStackTrace();
-//        } finally {
-//            master.destroy();
-//        }
-//
-//        System.out.println("Took: " + (System.currentTimeMillis() - start) + "ms");
-//
-//
-//    }
+
+    private static void readConfFile(String path1, String path2) throws IOException {
+
+        Properties p = new Properties();
+        FileInputStream file;
+
+        File f = new File(path1);
+        if (f.exists()) {
+            file = new FileInputStream(path1);
+        } else {
+            file = new FileInputStream(path2);
+        }
+
+
+        p.load(file);
+        file.close();
+
+        ip = p.getProperty("device.ip");
+        port = Integer.parseInt(p.getProperty("device.port"));
+        baudrate = Integer.parseInt(p.getProperty("serial.baudrate"));
+        serialInterface = p.getProperty("serial.interface");
+        register = Integer.parseInt(p.getProperty("device.register"));
+        dataBits = Integer.parseInt(p.getProperty("serial.databits"));
+        janitzaName = (p.getProperty("janitza.name"));
+        log.info("Janitza Name from configFile : " + p.getProperty("janitza.name"));
+    }
+
 }
