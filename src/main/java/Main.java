@@ -219,6 +219,9 @@ public class Main {
 
     public static void logRegistersOfJanitza503() throws Exception {
 
+        // /dev/tty.usbserial-AB0NN63U
+
+        log.info("Serial interface : " + serialInterface);
         SerialParameters serialParameters = new SerialParameters();
         serialParameters.setPortName(serialInterface);
         serialParameters.setBaudRate(baudrate);
@@ -226,24 +229,37 @@ public class Main {
         serialParameters.setParity(AbstractSerialConnection.NO_PARITY);
         serialParameters.setDatabits(dataBits);
         AbstractModbusMaster master = new ModbusSerialMaster(serialParameters);
+        master.connect();
 
-        String[] interfaces = "ttyAMA0,ttyS0,ttyUSB0,ttyUSB1,ttyUSB2,ttyUSB3,ttyUSB4".split(",");
+//        String[] interfaces = "tty.usbserial-AB0NN63U,ttyAMA0,ttyS0,ttyUSB0,ttyUSB1,ttyUSB2,ttyUSB3,ttyUSB4".split(",");
 
 
-        while (!master.isConnected()) {
+        // /dev/tty.usbserial-AB0NN63U
 
-            for (int i = 0; i < interfaces.length || master.isConnected(); i++) {
-                serialParameters.setPortName(interfaces[i]);
-
-                try {
-                    master.connect();
-                } catch (Exception ex) {
-                    System.out.println("tried : " + interfaces[i] + " port, failed.");
-                }
-
-            }
-
-        }
+//        while (!master.isConnected()) {
+//
+//            for (int i = 0; i < interfaces.length && !master.isConnected(); i++) {
+//                serialParameters.setPortName("/dev/" + interfaces[i]);
+//
+//                try {
+//                    master.connect();
+//                    log.info("Connected on : " + serialParameters.getPortName());
+//
+//                    if(master.isConnected()){
+//
+//                        break;
+//
+//
+//                    }
+//
+//
+//                } catch (Exception ex) {
+//                    System.out.println("tried : " + interfaces[i] + " port, failed.");
+//                }
+//
+//            }
+//
+//        }
 
 
         log.info("=== CURRENTS === MEASURED [mA] j2mod library");
@@ -295,7 +311,7 @@ public class Main {
 
         log.info("=== POWER REACTIVE === MEASURED [var] j2mod library");
         int powerReactiveMeasuredRegister = 8015;
-        Register[] pr = master.readMultipleRegisters(8015, 3);
+        Register[] pr = master.readMultipleRegisters(powerReactiveMeasuredRegister, 3);
         log.info("Register " + powerReactiveMeasuredRegister + " : [ j2mod serial : " + pr[0].toShort() + " ] ");
         log.info("Register " + (powerReactiveMeasuredRegister + 1) + " : [ j2mod serial : " + pr[1].toShort() + " ] ");
         log.info("Register " + (powerReactiveMeasuredRegister + 2) + " : [ j2mod serial : " + pr[2].toShort() + " ] ");
@@ -305,9 +321,10 @@ public class Main {
         int powerReactiveMeanRegister = 8172;
         Register[] prm = master.readMultipleRegisters(powerReactiveMeanRegister, 3);
         log.info("Register " + powerReactiveMeanRegister + " : [ j2mod serial : " + prm[0].toShort() + " ] ");
-        log.info("Register " + (powerReactiveMeanRegister + 1) + " : [ j2mod serial : " + prm[0].toShort() + " ] ");
-        log.info("Register " + (powerReactiveMeanRegister + 2) + " : [ j2mod serial : " + prm[0].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeanRegister + 1) + " : [ j2mod serial : " + prm[1].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeanRegister + 2) + " : [ j2mod serial : " + prm[2].toShort() + " ] ");
         log.info("====================");
+        master.disconnect();
     }
 
     private static void readConfFile(String path1, String path2) throws IOException {
