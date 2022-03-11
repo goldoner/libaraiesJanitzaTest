@@ -20,6 +20,7 @@ import org.apache.log4j.Logger;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Properties;
 
 public class Main {
@@ -234,35 +235,34 @@ public class Main {
         AbstractModbusMaster master = new ModbusSerialMaster(serialParameters);
         master.connect();
 
-//        String[] interfaces = "tty.usbserial-AB0NN63U,ttyAMA0,ttyS0,ttyUSB0,ttyUSB1,ttyUSB2,ttyUSB3,ttyUSB4".split(",");
+        if (!master.isConnected() && serialInterface.contains("ttyUSB0")) {
+            log.info("Failed to connect on the port from config file, trying another ports...");
+            ArrayList<String> serialPort = new ArrayList<>();
+            serialPort.add("ttyUSB0");
+            serialPort.add("ttyUSB1");
+            serialPort.add("ttyUSB2");
+            serialPort.add("ttyUSB3");
+            serialPort.add("ttyUSB4");
+
+            for (String anotherPort : serialPort) {
+                serialInterface = serialInterface.replace("ttyUSB0", anotherPort);
+                serialParameters.setPortName(serialInterface);
+                master = new ModbusSerialMaster(serialParameters);
+                master.connect();
+
+                if (master.isConnected()) {
+                    log.info("Managed to connect on : " + serialInterface);
+                    break;
+                } else {
+                    log.info("Failed to connect on : " + serialInterface);
+
+                }
 
 
-        // /dev/tty.usbserial-AB0NN63U
+            }
 
-//        while (!master.isConnected()) {
-//
-//            for (int i = 0; i < interfaces.length && !master.isConnected(); i++) {
-//                serialParameters.setPortName("/dev/" + interfaces[i]);
-//
-//                try {
-//                    master.connect();
-//                    log.info("Connected on : " + serialParameters.getPortName());
-//
-//                    if(master.isConnected()){
-//
-//                        break;
-//
-//
-//                    }
-//
-//
-//                } catch (Exception ex) {
-//                    System.out.println("tried : " + interfaces[i] + " port, failed.");
-//                }
-//
-//            }
-//
-//        }
+
+        }
 
 
         log.info("=== CURRENTS === MEASURED [mA] j2mod library");
