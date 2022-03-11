@@ -124,13 +124,15 @@ public class Main {
     public static void logRegistersOfJanitza96() throws Exception {
 
 
-        AbstractModbusMaster master = new ModbusTCPMaster(ip);
-        master.connect();
+        AbstractModbusMaster master = new ModbusTCPMaster(ip); // j2mod
+        master.connect(); // j2mod
 
 
         ModbusClient modbusClient = new ModbusClient(ip, port); // RossmannEngineering
         modbusClient.Connect(); // RossmannEngineering
 
+
+        // Mod4j Mod4j Mod4j Mod4j Mod4j Mod4j Mod4j
         IpParameters ipParameters = new IpParameters();
         ipParameters.setHost(ip);
         ipParameters.setPort(port);
@@ -140,6 +142,7 @@ public class Main {
         modbus4j.setTimeout(8000);
         modbus4j.setRetries(1);
         modbus4j.init();
+        // Mod4j Mod4j Mod4j Mod4j Mod4j Mod4j Mod4j
 
         log.info("Rossmann Engineering Modbus is connected : " + modbusClient.isConnected());
         log.info("j2mod is connected : " + master.isConnected());
@@ -265,64 +268,64 @@ public class Main {
         log.info("=== CURRENTS === MEASURED [mA] j2mod library");
         int currentsMeasuredRegister = 8000;
         Register[] c = master.readMultipleRegisters(currentsMeasuredRegister, 3);
-        log.info("Register " + currentsMeasuredRegister + " :  [ j2mod serial : " + c[0].getValue() + " ] ");
-        log.info("Register " + (currentsMeasuredRegister + 1) + " :  [ j2mod serial : " + c[1].getValue() + " ] ");
-        log.info("Register " + (currentsMeasuredRegister + 2) + " :  [ j2mod serial : " + c[2].getValue() + " ] ");
+        log.info("Register " + currentsMeasuredRegister + " :  [ j2mod serial getValue() : " + c[0].getValue() + " ] ");
+        log.info("Register " + (currentsMeasuredRegister + 1) + " :  [ j2mod serial getValue() : " + c[1].getValue() + " ] ");
+        log.info("Register " + (currentsMeasuredRegister + 2) + " :  [ j2mod serial getValue() : " + c[2].getValue() + " ] ");
 
 
         log.info("=== CURRENTS === MEAN [mA] j2mod library");
         int currentsMeanRegister = 8157;
         Register[] cm = master.readMultipleRegisters(currentsMeanRegister, 3);
-        log.info("Register " + currentsMeanRegister + " : [ j2mod serial : " + cm[0].getValue() + " ] ");
-        log.info("Register " + (currentsMeanRegister + 1) + " : [ j2mod serial : " + cm[1].getValue() + " ] ");
-        log.info("Register " + (currentsMeanRegister + 2) + " : [ j2mod serial : " + cm[2].getValue() + " ] ");
+        log.info("Register " + currentsMeanRegister + " : [ j2mod serial getValue() : " + cm[0].getValue() + " ] ");
+        log.info("Register " + (currentsMeanRegister + 1) + " : [ j2mod serial getValue() : " + cm[1].getValue() + " ] ");
+        log.info("Register " + (currentsMeanRegister + 2) + " : [ j2mod serial getValue() : " + cm[2].getValue() + " ] ");
 
 
         log.info("=== VOLTAGE === MEASURED [V] j2mod library");
         int voltageMeasuredRegister = 8003;
         Register[] v = master.readMultipleRegisters(voltageMeasuredRegister, 3);
-        log.info("Register " + voltageMeasuredRegister + " : [ j2mod serial : " + v[0].getValue() + " ] ");
-        log.info("Register " + (voltageMeasuredRegister + 1) + " : [ j2mod serial : " + v[1].getValue() + " ] ");
-        log.info("Register " + (voltageMeasuredRegister + 2) + " : [ j2mod serial : " + v[2].getValue() + " ] ");
+        log.info("Register " + voltageMeasuredRegister + " : [ j2mod serial getValue() : " + v[0].getValue() + " ] ");
+        log.info("Register " + (voltageMeasuredRegister + 1) + " : [ j2mod serial getValue() : " + v[1].getValue() + " ] ");
+        log.info("Register " + (voltageMeasuredRegister + 2) + " : [ j2mod serial getValue() : " + v[2].getValue() + " ] ");
 
 
         log.info("=== VOLTAGE === MEAN [V] j2mod library");
         int voltageMeanRegister = 8160;
         Register[] vm = master.readMultipleRegisters(voltageMeanRegister, 3);
-        log.info("Register " + voltageMeanRegister + " : [ j2mod serial : " + vm[0].getValue() + " ] ");
-        log.info("Register " + (voltageMeanRegister + 1) + " : [ j2mod serial : " + vm[1].getValue() + " ] ");
-        log.info("Register " + (voltageMeanRegister + 2) + " : [ j2mod serial : " + vm[2].getValue() + " ] ");
+        log.info("Register " + voltageMeanRegister + " : [ j2mod serial getValue() : " + vm[0].getValue() + " ] ");
+        log.info("Register " + (voltageMeanRegister + 1) + " : [ j2mod serial getValue() : " + vm[1].getValue() + " ] ");
+        log.info("Register " + (voltageMeanRegister + 2) + " : [ j2mod serial getValue() : " + vm[2].getValue() + " ] ");
 
 
         log.info("=== POWER ACTIVE === MEASURED [W] j2mod library");
         int powerActiveMeasuredRegister = 8009;
         Register[] pa = master.readMultipleRegisters(powerActiveMeasuredRegister, 3);
-        log.info("Register " + powerActiveMeasuredRegister + " : [ j2mod serial : " + pa[0].getValue() + " ] ");
-        log.info("Register " + (powerActiveMeasuredRegister + 1) + " : [ j2mod serial : " + pa[1].getValue() + " ] ");
-        log.info("Register " + (powerActiveMeasuredRegister + 2) + " : [ j2mod serial : " + pa[2].getValue() + " ] ");
+        log.info("Register " + powerActiveMeasuredRegister + " : [ j2mod serial toShort()  : " + pa[0].toShort() + " ] ");
+        log.info("Register " + (powerActiveMeasuredRegister + 1) + " : [ j2mod serial toShort() : " + pa[1].toShort() + " ] ");
+        log.info("Register " + (powerActiveMeasuredRegister + 2) + " : [ j2mod serial toShort() : " + pa[2].toShort() + " ] ");
 
         log.info("=== POWER ACTIVE === MEAN [W] j2mod library");
         int powerActiveMeanRegister = 8166;
         Register[] pam = master.readMultipleRegisters(powerActiveMeanRegister, 3);
-        log.info("Register" + powerActiveMeanRegister + ": [ j2mod serial : " + pam[0].getValue() + " ] ");
-        log.info("Register" + (powerActiveMeanRegister + 1) + ": [ j2mod serial : " + pam[1].getValue() + " ] ");
-        log.info("Register" + (powerActiveMeanRegister + 2) + ": [ j2mod serial : " + pam[2].getValue() + " ] ");
+        log.info("Register" + powerActiveMeanRegister + ": [ j2mod serial toShort()  : " + pam[0].toShort() + " ] ");
+        log.info("Register" + (powerActiveMeanRegister + 1) + ": [ j2mod serial toShort()  : " + pam[1].toShort() + " ] ");
+        log.info("Register" + (powerActiveMeanRegister + 2) + ": [ j2mod serial toShort()  : " + pam[2].toShort() + " ] ");
 
 
         log.info("=== POWER REACTIVE === MEASURED [var] j2mod library");
         int powerReactiveMeasuredRegister = 8015;
         Register[] pr = master.readMultipleRegisters(powerReactiveMeasuredRegister, 3);
-        log.info("Register " + powerReactiveMeasuredRegister + " : [ j2mod serial : " + pr[0].toShort() + " ] ");
-        log.info("Register " + (powerReactiveMeasuredRegister + 1) + " : [ j2mod serial : " + pr[1].toShort() + " ] ");
-        log.info("Register " + (powerReactiveMeasuredRegister + 2) + " : [ j2mod serial : " + pr[2].toShort() + " ] ");
+        log.info("Register " + powerReactiveMeasuredRegister + " : [ j2mod serial toShort()  : " + pr[0].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeasuredRegister + 1) + " : [ j2mod serial toShort()  : " + pr[1].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeasuredRegister + 2) + " : [ j2mod serial toShort()  : " + pr[2].toShort() + " ] ");
 
 
         log.info("=== POWER REACTIVE === MEAN [var] j2mod library");
         int powerReactiveMeanRegister = 8172;
         Register[] prm = master.readMultipleRegisters(powerReactiveMeanRegister, 3);
-        log.info("Register " + powerReactiveMeanRegister + " : [ j2mod serial : " + prm[0].toShort() + " ] ");
-        log.info("Register " + (powerReactiveMeanRegister + 1) + " : [ j2mod serial : " + prm[1].toShort() + " ] ");
-        log.info("Register " + (powerReactiveMeanRegister + 2) + " : [ j2mod serial : " + prm[2].toShort() + " ] ");
+        log.info("Register " + powerReactiveMeanRegister + " : [ j2mod serial toShort()  : " + prm[0].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeanRegister + 1) + " : [ j2mod serial toShort()  : " + prm[1].toShort() + " ] ");
+        log.info("Register " + (powerReactiveMeanRegister + 2) + " : [ j2mod serial toShort()  : " + prm[2].toShort() + " ] ");
         log.info("====================");
         master.disconnect();
     }
@@ -335,8 +338,10 @@ public class Main {
         File f = new File(path1);
         if (f.exists()) {
             file = new FileInputStream(path1);
+            log.info("Using : " + path1 + " configuration file");
         } else {
             file = new FileInputStream(path2);
+            log.info("Using : " + path2 + " configuration file");
         }
 
 
@@ -349,7 +354,11 @@ public class Main {
         serialInterface = p.getProperty("serial.interface");
         dataBits = Integer.parseInt(p.getProperty("serial.databits"));
         janitzaName = (p.getProperty("janitza.name"));
-        log.info("Janitza Name from configFile : " + p.getProperty("janitza.name"));
+        log.info("device.ip : " + p.getProperty("device.ip"));
+        log.info("device.port : " + p.getProperty("device.port"));
+        log.info("serial.baudrate : " + p.getProperty("serial.baudrate"));
+        log.info("serial.interface : " + p.getProperty("serial.interface"));
+        log.info("serial.databits : " + p.getProperty("serial.databits"));
     }
 
 
